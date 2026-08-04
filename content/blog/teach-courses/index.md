@@ -34,12 +34,6 @@ cover:
 
 On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
 
-## Citation
-
-
-You can also use the default view by omitting the view parameter:
-
-{{< cite page="/publications/conference-paper" >}}
 
 ## Video
 
