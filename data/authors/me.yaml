@@ -2,115 +2,162 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
+  display: Dr. Juan Camilo Vasquez-Correa
+  given: Juan Camilo
+  family: Vasquez-Correa
+  alternate: 'Camilo Vasquez'  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
 postnominals:
   - PhD
-  - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: AI Research Scientist
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+        AI Research Scientist (PhD) with 9+ years of interdisciplinary R\&D experience in generative speech and language models, 
+        multilingual ASR, speech-driven avatar animation, and emotion recognition. 
+        Passionate about building human-centered, generative AI systems and advancing personalization in large-scale environments.
+         Proven track record of bridging academic research and industrial innovation, 
+         from designing scalable AI solutions to publishing in top-tier venues. 
+         Skilled at leading projects across domains, collaborating with multidisciplinary teams, 
+         and translating cutting-edge AI/ML techniques into impactful applications for accessibility, healthcare, 
+         and human–computer interaction. 
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Vicomtech Foundation
+    url: https://www.vicomtech.org/en/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:jcvasquez@vicomtech.org
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/jcvasquezc
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/jcvasquezc/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=bgWhMokAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0003-4946-9232
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Speech Technologies & Multimodal AI: Multilingual ASR, generative speech/language models, and speech-driven avatar animation.
+  - Emotion Recognition & HCI: Modeling human-machine interactions to create highly personalized, responsive, and human-centered AI systems.
+  - Security & Biometrics: Voice antispoofing and robust biometric identification.
+  - Applied AI in Healthcare: Biomedical signal processing and the application of machine learning to improve healthcare accessibility and outcomes.
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Doktor Ingenieur (Ph.D.)
+    institution: Dep. of Informatik, Friedrich Alexander University Erlangen-Nürnberg, Germany
+    start: 2018-04
+    end: 2022-10
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Multimodal Assessment of Parkinson’s Disease Patients Using Information from Speech, Handwriting, and Gait.
     button:
       text: Download dissertation
-      url: /resume.pdf
+      url: https://open.fau.de/items/2d2cf672-9c69-43a1-9d6e-ea85acdc5130
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: MS Telecommunications Engineering
+    institution: University of Antioquia, Colombia
+  - degree: BS Electronics Engineering
+    institution: University of Antioquia, Colombia
+
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Associate Researcher
+    org: Vicomtech Foundation, Spain
+    start: 2022-07
+    end: present
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Research and development of speech technologies, multilingual ASR, speech-driven avatar animation, emotion recognition, and voice biometrics.
     button:
       text: View portfolio
       url: /
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Lead R&D 
+    org: Pratech Group, Colombia
+    start: 2021-06
+    end: 2012-07
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Led R&D projects leveraging AI and natural language understanding to enhance customer service. Led research and innovation strategies for new product development.
+  - role: Staff Researcher 
+    org: Pattern Recognition Lab, Friedrich Alexander University Erlangen-Nuremberg, Germany
+    start: 2018-04
+    end: 2021-05
+    summary: |
+      Conducted speech and NLP research for digital biomarkers in neurodegenerative disease assessment
+  - role: Lecturer 
+    org: Department of Electronics and Telecommunications Engineering, University of Antioquia, Colombia
+    start: 2016-06
+    end: 2020-01
+    summary: |
+      Teaching: Digital Signal Processing (bachelor), designing and delivering curriculum. Supervision of bachelor and master theses in speech processing and machine learning.
+  - role: Intern Researcher 
+    org: Telefónica R&D, Spain
+    start: 2015-11
+    end: 2016-03
+    summary: |
+      Designed speech processing algorithms for noisy environments to extract paralinguistic traits.
+
+
 
 skills:
   - name: Technical Skills
     items:
-      - label: Python
+      - label: Python (Pytorch, Transformers, NeMo, FastAPI)
         level: 5
-      - label: Machine Learning
+      - label: Docker
         level: 5
-      - label: Cloud Computing
+      - label: Git
         level: 4
   - name: Research & Communication
     items:
       - label: Academic Writing
         level: 5
-      - label: Conference Presentations
+      - label: LaTeX
+        level: 5
+      - label: Project Managment
         level: 4
       - label: Grant Proposals
         level: 4
 
 languages:
-  - name: English
+  - name: Spanish
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
+  - name: English
+    level: 5
     label: Fluent
 
+
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Spoofing-aware Automatic Speaker Verification (SASV) Wildspoof Challenge
+    awarder: ICASSP
+    date: "2026"
+    summary: State-of-the-art performance in combined anti-spoofing and speaker verification system.
+    icon: hero/trophy
+  - title: Albayzin 2024 Bilingual Basque-Spanish Speech to Text (BBS-S2T) Challenge
+    awarder: Iberspeech
+    date: "2024"
+    summary: Best system for bilingual Basque-Spanish code-switching speech recognition in .
+    icon: hero/trophy
+  - title: Best paper award
+    awarder: CIARP
+    date: "2024"
+    summary: Deep learning methods for assessmentof Parkinson’s disease patients from speech.
+    icon: hero/trophy
+  - title: IEEE travel grant
+    awarder: IEEE
+    date: "2027"
+    summary: IEEE Travel grant for the International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
+    icon: hero/trophy
+  - title: Student travel grant
+    awarder: ISCA
+    date: "2015"
+    summary: International Speech and Communication Association Student travel grant to attend INTERSPEECH conference.
+    icon: hero/trophy
+  - title: Young Researcher and Innovator COLCIENCIAS
+    awarder: COLCIENCIAS
+    date: "2014"
+    summary: Young Researcher and Innovator award from COLCIENCIAS (Colombian Ministry of Science).
     icon: hero/trophy

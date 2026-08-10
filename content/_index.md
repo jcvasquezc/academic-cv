@@ -38,15 +38,21 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        AI Research Scientist (PhD) with 9+ years of interdisciplinary R\&D experience in generative speech and language models, multilingual ASR, speech-driven avatar animation, and emotion recognition. Passionate about building human-centered, generative AI systems and advancing personalization in large-scale environments. Proven track record of bridging academic research and industrial innovation, from designing scalable AI solutions to publishing in top-tier venues (ICASSP, Interspeech, etc.). Skilled at leading projects across domains, collaborating with multidisciplinary teams, and translating cutting-edge AI/ML techniques into impactful applications for accessibility, healthcare, and human–computer interaction. 
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        ## Research Interests: 
 
-        Please reach out to collaborate 😃
+          * Speech Technologies & Multimodal AI: Multilingual ASR, generative speech/language models, and speech-driven avatar animation.
+
+          * Emotion Recognition & HCI: Modeling human-machine interactions to create highly personalized, responsive, and human-centered AI systems.
+
+          * Security & Biometrics: Voice antispoofing and robust biometric identification.
+
+          * Applied AI in Healthcare: Biomedical signal processing and the application of machine learning to improve healthcare accessibility and outcomes.
     design:
       columns: '1'
   - block: collection
-    id: papers
+    id: publications
     content:
       title: Featured Publications
       filters:
@@ -67,12 +73,12 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
+    id: projects
     content:
-      title: Recent & Upcoming Talks
+      title: Recent Projects
       filters:
         folders:
-          - events
+          - projects
     design:
       view: card
   - block: collection
