@@ -37,7 +37,7 @@ hugoblox:
   ids:
     arxiv: 1512.04133v1
 
-# links:
+links: []
 # - type: preprint
 #   provider: arxiv
 #   id: 1512.04133v1

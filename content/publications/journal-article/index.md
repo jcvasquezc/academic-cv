@@ -53,7 +53,7 @@ hugoblox:
   ids:
     arxiv: 1512.04133v1
 
-# links:
+links: []
 #   - type: pdf
 #     url: http://arxiv.org/pdf/1512.04133v1
 #   - type: code

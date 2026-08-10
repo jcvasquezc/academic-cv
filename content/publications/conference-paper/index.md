@@ -64,7 +64,7 @@ hugoblox:
     doi: 10.5555/123456
 
 # Custom links
-# links:
+links: []
 #   - type: pdf
 #     url: ""
 #   - type: code
