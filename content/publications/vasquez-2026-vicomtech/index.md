@@ -1,7 +1,7 @@
 ---
 title: "The Vicomtech Score-Level Fusion System for the SASV Track of the WildSpoof Challenge 2026"
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Santiago A. Moreno-Acevedo
 - Aitor Álvarez
 date: "2026-05-03"
