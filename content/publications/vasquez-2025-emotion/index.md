@@ -33,7 +33,7 @@ tags:
   - Emotion recognition
   - Real-time speech processing
 
-featured: false
+featured: true
 
 # Standard identifiers for auto-linking
 hugoblox:
