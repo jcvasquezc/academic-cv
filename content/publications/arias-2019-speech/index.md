@@ -2,7 +2,7 @@
 title: Speech differences between CI users with pre-and postlingual onset of deafness
   detected by speech processing methods on voiceless to voice transitions
 authors:
-- T Arias Vergara
+- T Arias-Vergara
 - S Gollwitzer
 - JR Orozco-Arroyave
 - JC Vasquez-Correa
