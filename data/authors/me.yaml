@@ -48,7 +48,9 @@ interests:
 
 education:
   - degree: Doktor Ingenieur (Ph.D.)
-    institution: Dep. of Informatik, Friedrich Alexander University Erlangen-Nürnberg, Germany
+    institution: 
+      Dep. of Informatik, Friedrich Alexander University Erlangen-Nürnberg, Germany
+      Dep. Electronics and Telecommunications Engineering, University of Antioquia, Colombia
     start: 2018-04
     end: 2022-10
     summary: |
@@ -59,8 +61,12 @@ education:
       icon: hero/arrow-down-tray
   - degree: MS Telecommunications Engineering
     institution: University of Antioquia, Colombia
+    start: 2014-01
+    end: 2016-06
   - degree: BS Electronics Engineering
     institution: University of Antioquia, Colombia
+    start: 2007-10
+    end: 2013-12
 
 
 experience:
@@ -148,7 +154,7 @@ awards:
     icon: hero/trophy
   - title: IEEE travel grant
     awarder: IEEE
-    date: "2027"
+    date: "2017"
     summary: IEEE Travel grant for the International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
     icon: hero/trophy
   - title: Student travel grant
