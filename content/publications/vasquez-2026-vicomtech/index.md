@@ -27,7 +27,7 @@ funding:
   - funder: "Basque Government(Spri Group)"
     grant: "VOILET (ZL-2024/00808),and IKASPROD (KK-2024/00050)"
 
-abstract: This paper details the Vicomtech participation in the ICASSP 2026 WildSpoof Challenge for Spoofing-Aware Speaker Verification. The challenge targets developing robust verification systems against in-the-wild Text-to-Speech and Voice-Cloning attacks. Our proposed system is based on the score-level fusion of an independent Counter Measure and multiple speaker embedding models. The optimal configuration, which combines a SimAM-ResNet and a robust antispoofing model significantly outperformed the SKA-TDNN baseline, and produced competitive results in the final evaluation data. This approach demonstrates superior robustness in complex and unconstrained scenarios..
+abstract: This paper details the Vicomtech participation in the ICASSP 2026 WildSpoof Challenge for Spoofing-Aware Speaker Verification. The challenge targets developing robust verification systems against in-the-wild Text-to-Speech and Voice-Cloning attacks. Our proposed system is based on the score-level fusion of an independent Counter Measure and multiple speaker embedding models. The optimal configuration, which combines a SimAM-ResNet and a robust antispoofing model significantly outperformed the SKA-TDNN baseline, and produced competitive results in the final evaluation data. This approach demonstrates superior robustness in complex and unconstrained scenarios.
 
 # Summary. An optional shortened abstract.
 summary: We developed a highly robust speaker verification system, specifically designed to detect and resist real-world text-to-speech and voice-cloning attacks.
