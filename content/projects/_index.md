@@ -8,7 +8,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: This is a selection of the research projects I have been involved within the last years
       filters:
         folders:
           - projects
