@@ -1,6 +1,5 @@
 ---
-title: GRACE
-summary: "Global Response Against Child Exploitation"
+title: GRACE - Global Response Against Child Exploitation
 date: 2022-07-18T06:06:17-05:00
 links:
   - type: site
