@@ -14,4 +14,8 @@ publishDate: '2026-08-10T10:22:36.175742Z'
 publication_types:
 - article-journal
 publication: '*International Journal of Language & Communication Disorders*'
+
+tags:
+- Dysartrhia
+- Pathological Speech Processing
 ---

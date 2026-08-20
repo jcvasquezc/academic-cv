@@ -11,4 +11,7 @@ publishDate: '2026-08-10T10:22:36.528926Z'
 publication_types:
 - paper-conference
 publication: '*Proc. Interspeech 2019*'
+
+tags:
+- Pathological Speech Processing
 ---

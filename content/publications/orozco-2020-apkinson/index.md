@@ -18,4 +18,9 @@ publishDate: '2026-08-10T10:22:36.203203Z'
 publication_types:
 - article-journal
 publication: '*Neurodegenerative Disease Management*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
+- Biomedical Signal Processing
 ---

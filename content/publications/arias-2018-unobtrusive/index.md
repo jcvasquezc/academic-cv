@@ -12,4 +12,8 @@ publishDate: '2026-08-10T10:22:36.576297Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of ICASSP*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
 ---

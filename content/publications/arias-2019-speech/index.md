@@ -14,4 +14,8 @@ publishDate: '2026-08-10T10:22:36.508910Z'
 publication_types:
 - article-journal
 publication: '*Laryngo-Rhino-Otologie*'
+
+tags:
+- Cochlear Implants
+- Pathological Speech Processing
 ---

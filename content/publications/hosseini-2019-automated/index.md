@@ -12,4 +12,8 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the 57th Annual Meeting of the Association for Computational
   Linguistics: Student Research Workshop*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
 ---

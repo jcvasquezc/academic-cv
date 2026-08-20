@@ -12,4 +12,11 @@ publishDate: '2026-08-10T10:22:36.155422Z'
 publication_types:
 - article-journal
 publication: '*IEEE Transactions on Affective Computing*'
+
+tags:
+- Parkinson's Disease
+- Alzheimer's Disease
+- Emotion Recognition
+- Affective Computing
+- Pathological Speech Processing
 ---

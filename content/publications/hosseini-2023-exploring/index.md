@@ -10,4 +10,8 @@ publishDate: '2026-08-10T10:22:36.380463Z'
 publication_types:
 - paper-conference
 publication: '*20th International Congress of the Phonetic Sciences (ICPhS 2023)*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
 ---

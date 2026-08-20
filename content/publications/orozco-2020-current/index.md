@@ -10,4 +10,10 @@ publishDate: '2026-08-10T10:22:36.210213Z'
 publication_types:
 - chapter
 publication: '*Neurological Disorders and Imaging Physics,*'
+
+tags:
+- Parkinson's Disease
+- Gait Processing
+- Handwriting Processing
+- Biomedical Signal Processing
 ---

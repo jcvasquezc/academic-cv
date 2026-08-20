@@ -11,4 +11,9 @@ publishDate: '2026-08-10T10:22:36.582802Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of Interspeech*'
+
+tags:
+- Parkinson's disease
+- Pathological Speech Processing
+- Biomedical Signal Processing
 ---

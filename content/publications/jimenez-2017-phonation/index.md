@@ -12,4 +12,10 @@ publication_types:
 - paper-conference
 publication: '*International Work-Conference on the Interplay Between Natural and
   Artificial Computation*'
+
+tags:
+- Parkinson's Disease
+- Cleft Lip & Palate
+- Larynx Disease
+- Pathological Speech Processing
 ---

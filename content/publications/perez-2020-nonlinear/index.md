@@ -11,4 +11,10 @@ date: '2020-01-01'
 publishDate: '2026-08-10T10:22:36.196639Z'
 publication_types:
 - article-journal
+
+tags:
+- Parkinson's Disease
+- Gait Processing
+- Nonlinear Dynamics
+- Biomedical Signal Processing
 ---

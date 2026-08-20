@@ -11,4 +11,8 @@ publishDate: '2026-08-10T10:22:36.535971Z'
 publication_types:
 - paper-conference
 publication: '*Interspeech*'
+
+tags:
+- Deep Learning
+- Automatic Speech Recognition
 ---

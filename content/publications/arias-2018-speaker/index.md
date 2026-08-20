@@ -11,4 +11,8 @@ publishDate: '2026-08-10T10:22:36.263172Z'
 publication_types:
 - article-journal
 publication: '*Speech Communication*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
 ---

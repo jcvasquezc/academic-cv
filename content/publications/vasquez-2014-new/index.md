@@ -12,4 +12,8 @@ publishDate: '2026-08-10T10:22:36.305120Z'
 publication_types:
 - article-journal
 publication: '*Revista Facultad de Ingenierı́a*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
 ---

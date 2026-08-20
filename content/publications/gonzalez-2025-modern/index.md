@@ -12,4 +12,7 @@ publishDate: '2026-08-10T10:22:36.105898Z'
 publication_types:
 - article-journal
 publication: '*Computer Speech & Language*'
+
+tags:
+- Automatic Speech Recognition
 ---

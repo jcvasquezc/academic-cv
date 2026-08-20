@@ -19,6 +19,9 @@ main:
   - name: Projects
     url: projects/
     weight: 30
+  - name: "Tags"
+    url:  "#tags"
+    weight: 20
   # - name: Courses
   #   url: courses/
   #   weight: 40

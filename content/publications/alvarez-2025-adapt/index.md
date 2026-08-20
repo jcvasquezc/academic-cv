@@ -18,4 +18,9 @@ publishDate: '2026-08-10T10:22:36.331948Z'
 publication_types:
 - paper-conference
 publication: '*SEPLN-PD*'
+
+tags:
+- Automatic Speech Recognition
+- Natural Language Processing
+- Human Machine Interaction
 ---

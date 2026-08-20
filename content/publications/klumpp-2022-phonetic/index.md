@@ -13,4 +13,8 @@ publishDate: '2026-08-10T10:22:36.142089Z'
 publication_types:
 - article-journal
 publication: '*Computer Speech & Language*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
 ---

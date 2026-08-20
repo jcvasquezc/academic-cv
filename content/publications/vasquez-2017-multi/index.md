@@ -19,4 +19,11 @@ publication_types:
 - paper-conference
 publication: '*2017 IEEE International Conference on Acoustics, Speech and Signal
   Processing (ICASSP)*'
+
+tags:
+- Parkinson's disease
+- Pathological Speech Processing
+- Biomedical Signal Processing
+- Gait Processing
+- Handwriting Processing 
 ---

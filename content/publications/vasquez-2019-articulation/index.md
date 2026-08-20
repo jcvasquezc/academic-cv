@@ -13,4 +13,9 @@ publishDate: '2026-08-10T10:22:36.563013Z'
 publication_types:
 - paper-conference
 publication: '*Iberoamerican Congress on Pattern Recognition*'
+
+
+tags:
+- Parkinson's disease
+- Pathological Speech Processing
 ---

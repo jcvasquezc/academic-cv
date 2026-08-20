@@ -12,4 +12,8 @@ publishDate: '2026-08-10T10:22:36.629553Z'
 publication_types:
 - paper-conference
 publication: '*International Conference on Text, Speech, and Dialogue*'
+
+tags:
+- Parkinson's disease
+- Pathological Speech Processing
 ---

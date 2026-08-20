@@ -18,4 +18,7 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the 7th International Conference on Natural Language
   and Speech Processing (ICNLSP 2024)*'
+
+tags:
+- Emotion Recognition
 ---

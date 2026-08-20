@@ -16,4 +16,9 @@ publishDate: '2026-08-10T10:22:36.168705Z'
 publication_types:
 - article-journal
 publication: '*Movement Disorders*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
+
 ---

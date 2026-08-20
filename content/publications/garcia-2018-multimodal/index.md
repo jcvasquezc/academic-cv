@@ -10,4 +10,8 @@ publishDate: '2026-08-10T10:22:36.589275Z'
 publication_types:
 - paper-conference
 publication: '*Proc. Interspeech 2018*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
 ---

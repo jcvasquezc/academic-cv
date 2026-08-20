@@ -11,4 +11,9 @@ date: '2016-01-01'
 publishDate: '2026-08-10T10:22:36.704267Z'
 publication_types:
 - article-journal
+
+tags:
+- Parkinson's Disease
+- Gait Processing
+- Biomedical Signal Processing
 ---

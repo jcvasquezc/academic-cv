@@ -17,4 +17,9 @@ publishDate: '2026-08-10T10:22:36.249790Z'
 publication_types:
 - article-journal
 publication: '*SoftwareX*'
+
+tags:
+- Parkinson's Disease
+- Pathological Speech Processing
+- Biomedical Signal Processing
 ---

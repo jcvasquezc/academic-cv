@@ -12,4 +12,12 @@ publication_types:
 - paper-conference
 publication: '*ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech
   and Signal Processing (ICASSP)*'
+
+tags:
+- Parkinson's disease
+- Handwriting Processing
+- Gait Processing
+- Pathological Speech Processing
+- Biomedical Signal Processing
+
 ---

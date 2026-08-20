@@ -18,4 +18,9 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the 15th International Workshop on Spoken Dialogue Systems
   Technology*'
+
+tags:
+- Automatic Speech Recognition
+- Natural Language Processing
+- Human Machine Interaction
 ---

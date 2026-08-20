@@ -17,4 +17,11 @@ publishDate: '2026-08-10T10:22:36.115025Z'
 publication_types:
 - article-journal
 publication: '*Applied Sciences*'
+
+tags:
+- Self Sovereign Identity
+- Spoofing Aware Speaker Verification
+- Digital Wallet
+- Digital Security
+- Biometrics
 ---

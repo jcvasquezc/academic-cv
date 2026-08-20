@@ -12,4 +12,7 @@ publishDate: '2026-08-10T10:22:36.725910Z'
 publication_types:
 - chapter
 publication: '*Recent advances in nonlinear speech processing*'
+
+tags:
+- Emotion Recognition
 ---

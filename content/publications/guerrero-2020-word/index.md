@@ -10,4 +10,8 @@ publishDate: '2026-08-10T10:22:36.223474Z'
 publication_types:
 - article-journal
 publication: '*TecnoLógicas*'
+
+tags:
+- Alzheimer's Disease
+- Natural Language Processing
 ---

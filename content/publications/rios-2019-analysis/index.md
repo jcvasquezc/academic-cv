@@ -13,4 +13,9 @@ publishDate: '2026-08-10T10:22:36.236590Z'
 publication_types:
 - article-journal
 publication: '*Computer methods and programs in biomedicine*'
+
+tags:
+- Parkinson's Disease
+- Biomedical Signal Processing
+- Handwriting Processing
 ---

@@ -13,4 +13,8 @@ publishDate: '2026-08-10T10:22:36.556259Z'
 publication_types:
 - paper-conference
 publication: '*Iberoamerican congress on pattern recognition*'
+
+tags:
+- Cochlear Implants
+- Pathological Speech Processing
 ---

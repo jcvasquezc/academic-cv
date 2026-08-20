@@ -15,4 +15,10 @@ publication_types:
 - paper-conference
 publication: '*Proceedings of the 7th International Conference on Natural Language
   and Speech Processing (ICNLSP 2024)*'
+
+tags:
+  - Facial avatar animation
+  - Talking head generation
+  - Emotion recognition
+  - Real-time speech processing
 ---

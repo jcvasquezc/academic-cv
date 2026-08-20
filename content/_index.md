@@ -110,6 +110,11 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+  - block: collection
+    id: tags
+    content:
+      title: Popular Topics
+      page_type: tags 
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

@@ -12,4 +12,7 @@ publishDate: '2026-08-10T10:22:36.697370Z'
 publication_types:
 - paper-conference
 publication: '*Speech Communication; 12. ITG Symposium*'
+
+tags:
+- Emotion Recognition
 ---

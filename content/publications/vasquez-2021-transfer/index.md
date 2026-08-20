@@ -14,4 +14,13 @@ publishDate: '2026-08-10T10:22:36.182515Z'
 publication_types:
 - article-journal
 publication: '*Pattern Recognition Letters*'
+
+tags:
+- Parkinson's disease
+- Deep Learning
+- Convolutional Neural Networks
+- Pathological Speech Processing
+- Biomedical Signal Processing
+
+
 ---
