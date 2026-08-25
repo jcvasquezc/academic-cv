@@ -38,17 +38,16 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research centers on bridging theoretical deep learning with practical, human-centered applications in speech processing, affective computing, audio security, and clinical health. A major foundation of my academic output focuses on biomedical signal processing, where I have pioneered multimodal deep learning architectures, transfer learning strategies, and digital health tools for the automated assessment and telemonitoring of neurodegenerative disorders like Parkinson’s and Alzheimer’s disease. Building on this foundation, my current research advances generative speech and multimodal interaction, including multilingual speech recognition, domain adaptation using synthetic data, emotion recognition, and real-time emotion-aware avatar animation. Concurrently, I develop robust voice anti-spoofing frameworks and biometric authentication protocols to ensure security, privacy, and trustworthiness in real-world human-machine communication.
+        My research centers on bridging theoretical deep learning with practical, human-centered applications in speech processing, affective computing, audio security, and clinical health. A major foundation of my academic output focuses on biomedical signal processing, where I have pioneered multimodal deep learning architectures, transfer learning strategies, and digital health tools for the automated assessment and telemonitoring of neurodegenerative disorders like Parkinson’s and Alzheimer’s disease. 
+        
+        Building on this foundation, my current research advances generative speech and multimodal interaction, including multilingual speech recognition, domain adaptation using synthetic data, emotion recognition, and real-time emotion-aware avatar animation. Concurrently, I develop robust voice anti-spoofing frameworks and biometric authentication protocols to ensure security, privacy, and trustworthiness in real-world human-machine communication.
 
-        ## Research Interests: 
+        ## Research Interests
 
-          * Speech Technologies & Multimodal AI: Multilingual ASR, generative speech/language models, and speech-driven avatar animation.
-
-          * Emotion Recognition & HCI: Modeling human-machine interactions to create highly personalized, responsive, and human-centered AI systems.
-
-          * Security & Biometrics: Voice antispoofing and robust biometric identification.
-
-          * Applied AI in Healthcare: Biomedical signal processing and the application of machine learning to improve healthcare accessibility and outcomes.
+          * **Speech Technologies & Multimodal AI:** Multilingual ASR, generative speech/language models, and speech-driven avatar animation.
+          * **Emotion Recognition & HCI:** Modeling human-machine interactions to create highly personalized, responsive, and human-centered AI systems.
+          * **Security & Biometrics:** Voice antispoofing and robust biometric identification.
+          * **Applied AI in Healthcare:** Biomedical signal processing and the application of machine learning to improve healthcare accessibility and outcomes.
     design:
       columns: '1'
   - block: collection
@@ -72,6 +71,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
+
   - block: collection
     id: projects
     content:
@@ -81,6 +82,10 @@ sections:
           - projects
     design:
       view: card
+
+
+
+
   - block: collection
     id: news
     content:
@@ -90,7 +95,7 @@ sections:
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+      count: 3
       # Filter on criteria
       filters:
         author: ''
@@ -110,11 +115,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: collection
-    id: tags
-    content:
-      title: Popular Topics
-      page_type: tags 
+
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
