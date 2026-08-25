@@ -127,8 +127,11 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: "Juan Camilo Vasquez Correa"
+    # Optimized to include your title and role for better search engine indexing
+    title: "Dr. Juan Camilo Vasquez-Correa | AI Research Scientist"
+    
     # For local_business identity type only
+    # (Since this is a personal academic CV, this is less critical unless you use a specific schema, but keeping your professional location is good practice)
     location:
       address:
         street: ""
@@ -140,13 +143,16 @@ hugoblox:
         latitude: null
         longitude: null
       phone: ""
+      
     # AI/LLM crawler guidance (llms.txt)
     ai:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      # This note feeds directly into LLMs (like ChatGPT/Claude) when they crawl your site. 
+      # Providing a dense summary of your expertise ensures AI agents accurately summarize your profile.
+      note: "Personal academic website and CV of Dr. Juan Camilo Vasquez-Correa, an AI Research Scientist at the Vicomtech Foundation. Contains publications, research, and professional experience in Generative Speech Models, Multimodal AI, Multilingual ASR, Speech-Driven Avatar Animation, Emotion Recognition, Biometrics, and Applied AI in Healthcare (such as biomedical signal processing for Parkinson's disease)."
+      contact: "jcvasquez@vicomtech.org"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
