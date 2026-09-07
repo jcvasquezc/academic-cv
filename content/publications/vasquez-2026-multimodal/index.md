@@ -40,6 +40,7 @@ abstract: Natural language interaction in industrial settings is severely hinder
 tags:
 - Automatic Speech Recognition
 - Large Language Models
+- Robotics
 
 featured: true
 

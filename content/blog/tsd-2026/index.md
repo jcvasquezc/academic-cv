@@ -1,6 +1,6 @@
 ---
-title: Text - Speech & Dialog (TSD) 2026
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+title: Insights from TSD 2026
+summary: Advancing Speech Tech in Brno
 date: 2026-09-01
 authors:
   - me
@@ -27,24 +27,41 @@ cover:
 
     
 ---
+I recently had the pleasure of traveling to the beautiful city of Brno to attend the **International Conference on Text, Speech and Dialogue (TSD 2026)**. It is always a fantastic experience to be back at this conference, reconnect with the research community, and meet such wonderful and innovative people. 
 
-I came back from Brno in Czech Republic to attend International Conference on Text, Speech and Dialogue, TSD 2026
+This year, I represent our group at **Vicomtech** and present two of our latest papers, which explore very different but equally exciting applications of speech technology, from healthcare and education to industrial robotics.
 
-I presented two papers from our group at Vicomtech
+Here is a quick breakdown of what we shared at the conference:
 
-## Syllable Stress Detection to Evaluate Pathological Speech and L2 Language Level Pronunciation
+---
 
-Here we show how a model trained to recognize syllable stress can be used as mechanism to support the evaluation of different speech impairments, and as a pronunciation feedback for students learning a second language. 
+## 1. Supporting Health and Education Through Speech Analysis
 
-Additional details [here](https://jcvasquezc.github.io/academic-cv/publications/vasquez-2026-syllable/): 
+**Paper:** *Syllable Stress Detection to Evaluate Pathological Speech and L2 Language Level Pronunciation*
+
+In this research, we explored how models trained to recognize syllable stress can be repurposed for real-world impact. We demonstrated that this technology can be used as a powerful mechanism to:
+*   Support the evaluation and monitoring of various speech impairments (pathological speech).
+*   Provide automated, accurate pronunciation feedback for students learning a second language (L2).
+
+This was a highly collaborative effort with my Vicomtech colleagues, **Aitor Álvarez** and **Haritz Arzelus Irazusta**. 
+
+> **Read the full paper here:** [https://lnkd.in/e3fJMRR4](https://lnkd.in/e3fJMRR4)
+
+---
+
+## 2. Enhancing Human-Robot Collaboration in Noisy Environments
+
+**Paper:** *Multimodal Speech Recognition in High-Noise Factory Floors for Human Robot Collaboration*
+
+Factory floors are notoriously loud, making voice commands for robots highly unreliable. To solve this, we proposed a **multimodal approach** for noise-robust speech recognition. By combining both acoustic and visual (lip-reading) information, and utilizing a Large Language Model (LLM) for semantic arbitration, we were able to significantly improve recognition accuracy in these challenging, high-noise environments.
 
 
-## Multimodal Speech Recognition in High-Noise Factory Floors for Human Robot Collaboration
 
-We proposed a multimodal approach for noise-robust speech recognition is high noise factory environments combining acoustic and visual information, and using an LLM for semantic arbitration.
+> **Read the full paper here:** [https://lnkd.in/eXRZhZEn](https://lnkd.in/eXRZhZEn)
 
-with Aitor Álvarez, Haritz Arzelus Irazusta, and colleague from TECNALIA Research & Innovation, Sara Sillaurren, Eneko tome, and Ana Díaz de Zugazúa Salazar
+---
 
-Additional details [here](https://jcvasquezc.github.io/academic-cv/publications/vasquez-2026-multimodal/): 
+A big thank you to the organizers of TSD 2026 for hosting such a great event. I leave Brno feeling inspired by the conversations I had and the groundbreaking research being done across our field. 
 
-It is always good to be back to the conference and meet wonderful people
+**Tags:**
+[#SpeechRecognition](https://jcvasquezc.github.io/academic-cv/tags/automatic-speech-recognition/) [#Deeplearning](https://jcvasquezc.github.io/academic-cv/tags/deep-learning/) [#robotics](https://jcvasquezc.github.io/academic-cv/tags/robotics/) [#prosody](https://jcvasquezc.github.io/academic-cv/tags/prosody/)
