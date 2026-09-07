@@ -21,4 +21,13 @@ publication: '*Information*'
 tags:
 - Federated Learning
 - Digital Security
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/projects/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects:
+ - GRACE
+
 ---
