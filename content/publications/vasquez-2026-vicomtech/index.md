@@ -36,7 +36,7 @@ tags:
 - Antispoofing
 - Voice cloning attacks
 
-featured: true
+featured: false
 
 hugoblox:
   ids:
