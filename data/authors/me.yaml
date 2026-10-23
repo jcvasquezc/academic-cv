@@ -14,14 +14,11 @@ status:
   icon: "☕️"
 role: AI Research Scientist
 bio: |
-        AI Research Scientist (PhD) with 9+ years of interdisciplinary R\&D experience in generative speech and language models, 
-        multilingual ASR, speech-driven avatar animation, and emotion recognition. 
-        Passionate about building human-centered, generative AI systems and advancing personalization in large-scale environments.
-         Proven track record of bridging academic research and industrial innovation, 
-         from designing scalable AI solutions to publishing in top-tier venues. 
-         Skilled at leading projects across domains, collaborating with multidisciplinary teams, 
-         and translating cutting-edge AI/ML techniques into impactful applications for accessibility, healthcare, 
-         and human–computer interaction. 
+  I'm an AI research scientist at Vicomtech working on speech and multimodal AI:
+  multilingual ASR, emotion-aware avatar animation, voice anti-spoofing, and
+  speech-based health assessment. With a PhD from FAU Erlangen-Nürnberg and 9+ years
+  across academia and industry, I turn research into systems for accessibility,
+  healthcare, and human–computer interaction.
 
 affiliations:
   - name: Vicomtech Foundation
@@ -49,8 +46,8 @@ interests:
 education:
   - degree: Doktor Ingenieur (Ph.D.)
     institution: 
-      Dep. of Informatik, Friedrich Alexander University Erlangen-Nürnberg, Germany
-      Dep. Electronics and Telecommunications Engineering, University of Antioquia, Colombia
+      - Dep. of Informatik, Friedrich Alexander University Erlangen-Nürnberg, Germany
+      - Dep. Electronics and Telecommunications Engineering, University of Antioquia, Colombia
     start: 2018-04
     end: 2022-10
     summary: |
@@ -83,7 +80,7 @@ experience:
   - role: Lead R&D 
     org: Pratech Group, Colombia
     start: 2021-06
-    end: 2012-07
+    end: 2022-07
     summary: |
       Led R&D projects leveraging AI and natural language understanding to enhance customer service. Led research and innovation strategies for new product development.
   - role: Staff Researcher 
@@ -140,7 +137,7 @@ awards:
   - title: Spoofing-aware Automatic Speaker Verification (SASV) Wildspoof Challenge
     awarder: ICASSP
     date: "2026"
-    summary: State-of-the-art performance in combined anti-spoofing and speaker verification system.
+    summary: 1st place  in combined anti-spoofing and speaker verification system.
     icon: hero/trophy
   - title: Albayzin 2024 Bilingual Basque-Spanish Speech to Text (BBS-S2T) Challenge
     awarder: Iberspeech

@@ -25,7 +25,7 @@ tags:
 - Digital security
 - Federated Learning
 
-featured: true
+featured: false
 
 
 hugoblox:

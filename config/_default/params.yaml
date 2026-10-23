@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Dr. Juan Camilo Vasquez"
+    name: "Dr. Juan Camilo Vasquez-Correa"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: "Vicomtech"
     # Schema.org type for structured data
@@ -37,7 +37,7 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: "indigo" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
@@ -70,7 +70,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "spacious"
+    spacing: "comfortable"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
@@ -89,8 +89,8 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
-    language_switcher: true
+    theme_picker: false
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -104,7 +104,7 @@ hugoblox:
   footer:
     # Footer style variant
     style: minimal # minimal | columns | centered
-    language_switcher: true
+    language_switcher: false
     # Custom footer text (HTML supported)
     text: ""
 
@@ -117,8 +117,8 @@ hugoblox:
     notice: "© {year} {name}. This work is licensed under {license}"
     license:
       type: cc # cc | custom
-      allow_derivatives: false
-      share_alike: true
+      allow_derivatives: true
+      share_alike: false
       allow_commercial: false
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -128,7 +128,7 @@ hugoblox:
   seo:
     # Browser tab title override (defaults to identity.name if not set)
     # Optimized to include your title and role for better search engine indexing
-    title: "Dr. Juan Camilo Vasquez-Correa | AI Research Scientist"
+    title: "Dr. Juan Camilo Vasquez-Correa | Associate Research Scientist"
     
     # For local_business identity type only
     # (Since this is a personal academic CV, this is less critical unless you use a specific schema, but keeping your professional location is good practice)
@@ -208,7 +208,7 @@ hugoblox:
     google_tag_manager:
       container_id: "" # GTM-XXXXXXX
     plausible:
-      domain: ""
+      domain: "jcvasquezc.github.io"
     fathom:
       site_id: ""
     pirsch:

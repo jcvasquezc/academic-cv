@@ -4,9 +4,9 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Website name (set in params.yaml under hugoblox.branding.name)
-title: 'Juan Camilo Vasquez - Personal Website'
+title: 'Dr. Juan Camilo Vasquez-Correa - Personal Website'
 # Website URL
-baseURL: 'https://jcvasquez.github.io/academic-cv'
+baseURL: 'https://jcvasquezc.github.io/academic-cv/'
 
 ############################
 ## LANGUAGE
@@ -33,10 +33,12 @@ cascade:
 
 build:
   writeStats: true
-enableGitInfo: false
-summaryLength: 30
+enableGitInfo: true
+frontmatter:
+  lastmod: [':git', 'lastmod', 'date', 'publishDate']
+summaryLength: 60
 pagination:
-  pagerSize: 10
+  pagerSize: 12
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -63,3 +65,5 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+  changefreq: monthly
+  priority: 0.5
