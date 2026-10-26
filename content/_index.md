@@ -33,23 +33,30 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: features
+  - block: markdown
     content:
-      title: Research
-      text: From clinical speech to secure, expressive human–machine interaction.
-      items:
-        - name: Speech & Multimodal AI
-          icon: hero/microphone
-          description: Multilingual ASR, generative speech and language models, speech-driven avatar animation.
-        - name: Emotion & HCI
-          icon: hero/face-smile
-          description: Emotion-aware, personalized, human-centered interaction.
-        - name: Security & Biometrics
-          icon: hero/shield-check
-          description: Voice anti-spoofing and speaker verification.
-        - name: AI for Healthcare
-          icon: hero/heart
-          description: Speech, handwriting and gait biomarkers for Parkinson's and Alzheimer's disease.
+      title: 'Research'
+      text: |-
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
+            <h3 class="font-semibold text-lg">🎙️ Speech & Multimodal AI</h3>
+            <p>Multilingual ASR, generative speech and language models, speech-driven avatar animation.</p>
+          </div>
+          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
+            <h3 class="font-semibold text-lg">🙂 Emotion & HCI</h3>
+            <p>Emotion-aware, personalized, human-centered interaction.</p>
+          </div>
+          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
+            <h3 class="font-semibold text-lg">🛡️ Security & Biometrics</h3>
+            <p>Voice anti-spoofing and speaker verification.</p>
+          </div>
+          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
+            <h3 class="font-semibold text-lg">❤️ AI for Healthcare</h3>
+            <p>Speech, handwriting and gait biomarkers for Parkinson's and Alzheimer's disease.</p>
+          </div>
+        </div>
+    design:
+      columns: '1'
   - block: collection
     id: publications
     content:
