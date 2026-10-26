@@ -37,23 +37,29 @@ sections:
     content:
       title: 'Research'
       text: |-
-        <div class="grid gap-6 sm:grid-cols-2">
-          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
-            <h3 class="font-semibold text-lg">🎙️ Speech & Multimodal AI</h3>
-            <p>Multilingual ASR, generative speech and language models, speech-driven avatar animation.</p>
-          </div>
-          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
-            <h3 class="font-semibold text-lg">🙂 Emotion & HCI</h3>
-            <p>Emotion-aware, personalized, human-centered interaction.</p>
-          </div>
-          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
-            <h3 class="font-semibold text-lg">🛡️ Security & Biometrics</h3>
-            <p>Voice anti-spoofing and speaker verification.</p>
-          </div>
-          <div class="rounded-lg border border-gray-200 dark:border-gray-700 p-5">
-            <h3 class="font-semibold text-lg">❤️ AI for Healthcare</h3>
-            <p>Speech, handwriting and gait biomarkers for Parkinson's and Alzheimer's disease.</p>
-          </div>
+        <div class="not-prose" style="position:relative;left:50%;transform:translateX(-50%);width:min(1100px,92vw);">
+        <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        <div class="mb-3 text-3xl">🎙️</div>
+        <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">Speech & Multimodal AI</h3>
+        <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Multilingual ASR, generative speech and language models, speech-driven avatar animation.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        <div class="mb-3 text-3xl">🙂</div>
+        <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">Emotion & HCI</h3>
+        <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Emotion-aware, personalized, human-centered interaction.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        <div class="mb-3 text-3xl">🛡️</div>
+        <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">Security & Biometrics</h3>
+        <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Voice anti-spoofing and speaker verification.</p>
+        </div>
+        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        <div class="mb-3 text-3xl">❤️</div>
+        <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">AI for Healthcare</h3>
+        <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Speech, handwriting and gait biomarkers for patients affected by neurodegenerative and mental diseases.</p>
+        </div>
+        </div>
         </div>
     design:
       columns: '1'
