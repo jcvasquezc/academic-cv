@@ -14,7 +14,7 @@ publication_types:
 publication: '*Interspeech 2021*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Deep Learning
 - Pathological Speech Processing
 - Biomedical Signal Processing

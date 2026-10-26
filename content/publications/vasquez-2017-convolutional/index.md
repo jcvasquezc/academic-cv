@@ -12,6 +12,6 @@ publication_types:
 publication: '*Proc. Interspeech 2017*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Pathological Speech Processing
 ---

@@ -16,7 +16,7 @@ publication_types:
 publication: '*Iberoamerican congress on pattern recognition*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Deep Learning
 - Pathological Speech Processing
 

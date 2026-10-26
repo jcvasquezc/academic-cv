@@ -16,8 +16,8 @@ publication: '*ICASSP 2021-2021 IEEE International Conference on Acoustics, Spee
   and Signal Processing (ICASSP)*'
 
 tags:
-- Parkinson's disease
-- Gait processing
+- Parkinson's Disease
+- Gait Processing
 - Pathological Speech Processing
 - Biomedical Signal Processing
 

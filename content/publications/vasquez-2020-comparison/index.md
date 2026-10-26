@@ -14,7 +14,7 @@ publication: '*ICASSP 2020-2020 IEEE International Conference on Acoustics, Spee
   and Signal Processing (ICASSP)*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Handwriting Processing
 - Gait Processing
 - Pathological Speech Processing

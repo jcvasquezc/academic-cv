@@ -16,6 +16,6 @@ publication_types:
 publication: '*International Journal of Language & Communication Disorders*'
 
 tags:
-- Dysartrhia
+- Dysarthria
 - Pathological Speech Processing
 ---

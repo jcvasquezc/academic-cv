@@ -14,8 +14,8 @@ publication_types:
 publication: '*Speech Communication*'
 
 tags:
-- Parkinson's disease
-- Cleft Lip and Palate
+- Parkinson's Disease
+- Cleft Lip & Palate
 - Larynx Disease
 - Deep Learning
 - Pathological Speech Processing

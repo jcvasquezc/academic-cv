@@ -13,6 +13,6 @@ publication_types:
 publication: '*Journal of communication disorders*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Pathological Speech Processing
 ---

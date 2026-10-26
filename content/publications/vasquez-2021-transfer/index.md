@@ -16,7 +16,7 @@ publication_types:
 publication: '*Pattern Recognition Letters*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Deep Learning
 - Convolutional Neural Networks
 - Pathological Speech Processing

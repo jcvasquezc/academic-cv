@@ -16,6 +16,6 @@ publication: '*Iberoamerican Congress on Pattern Recognition*'
 
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Pathological Speech Processing
 ---

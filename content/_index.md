@@ -37,27 +37,52 @@ sections:
     content:
       title: 'Research'
       text: |-
+        My research centers on bridging theoretical deep learning with practical, human-centered applications in speech processing, affective computing, audio security, and clinical health. A major foundation of my academic output focuses on biomedical signal processing, where I have pioneered multimodal deep learning architectures, transfer learning strategies, and digital health tools for the automated assessment and telemonitoring of neurodegenerative disorders like Parkinson’s and Alzheimer’s disease. 
+        Building on this foundation, my current research interests include:
+
         <div class="not-prose" style="position:relative;left:50%;transform:translateX(-50%);width:min(1100px,92vw);">
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        <div class="flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
         <div class="mb-3 text-3xl">🎙️</div>
         <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">Speech & Multimodal AI</h3>
         <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Multilingual ASR, generative speech and language models, speech-driven avatar animation.</p>
+        <div class="mt-auto flex flex-wrap gap-2 pt-4">
+        <a href="tags/automatic-speech-recognition/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Automatic Speech Recognition</a>
+        <a href="tags/large-language-models/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Large Language Models</a>
+        <a href="tags/facial-avatar-animation/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Facial Avatar Animation</a>
         </div>
-        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        </div>
+        <div class="flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
         <div class="mb-3 text-3xl">🙂</div>
         <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">Emotion & HCI</h3>
         <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Emotion-aware, personalized, human-centered interaction.</p>
+        <div class="mt-auto flex flex-wrap gap-2 pt-4">
+        <a href="tags/emotion-recognition/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Emotion Recognition</a>
+        <a href="tags/affective-computing/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Affective Computing</a>
+        <a href="tags/human-machine-interaction/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Human Machine Interaction</a>
         </div>
-        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        </div>
+        <div class="flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
         <div class="mb-3 text-3xl">🛡️</div>
         <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">Security & Biometrics</h3>
         <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Voice anti-spoofing and speaker verification.</p>
+        <div class="mt-auto flex flex-wrap gap-2 pt-4">
+        <a href="tags/biometrics/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Biometrics</a>
+        <a href="tags/antispoofing/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Antispoofing</a>
+        <a href="tags/digital-security/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Digital Security</a>
         </div>
-        <div class="rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
+        </div>
+        <div class="flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
         <div class="mb-3 text-3xl">❤️</div>
         <h3 class="m-0 mb-2 text-lg font-semibold leading-snug">AI for Healthcare</h3>
         <p class="m-0 text-sm leading-relaxed text-gray-600 dark:text-gray-300">Speech, handwriting and gait biomarkers for patients affected by neurodegenerative and mental diseases.</p>
+        <div class="mt-auto flex flex-wrap gap-2 pt-4">
+        <a href="tags/pathological-speech-processing/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Pathological Speech Processing</a>
+        <a href="tags/parkinsons-disease/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Parkinson's Disease</a>
+        <a href="tags/alzheimers-disease/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Alzheimer's Disease</a>
+        <a href="tags/gait-processing/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Gait Processing</a>
+        <a href="tags/handwriting-processing/" class="rounded-full border border-gray-300 px-3 py-1 text-xs no-underline hover:border-primary-500 hover:text-primary-600 dark:border-gray-600">Handwriting Processing</a>
+        </div>
         </div>
         </div>
         </div>

@@ -13,7 +13,7 @@ publication_types:
 publication: '*Proceedings of Interspeech*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Pathological Speech Processing
 - Biomedical Signal Processing
 ---

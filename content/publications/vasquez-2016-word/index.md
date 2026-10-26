@@ -12,7 +12,7 @@ publication_types:
 publication: '*2016 XXI Symposium on Signal Processing, Images and Artificial Vision
   (STSIVA)*'
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Pathological Speech Processing
 
 ---

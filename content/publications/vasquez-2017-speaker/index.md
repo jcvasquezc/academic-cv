@@ -14,6 +14,6 @@ publication_types:
 publication: '*International Conference on Text, Speech, and Dialogue*'
 
 tags:
-- Parkinson's disease
+- Parkinson's Disease
 - Pathological Speech Processing
 ---
