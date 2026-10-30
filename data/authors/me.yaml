@@ -75,7 +75,7 @@ experience:
       Research and development of speech technologies, multilingual ASR, speech-driven avatar animation, emotion recognition, and voice biometrics.
     button:
       text: View portfolio
-      url: /
+      url: https://www.vicomtech.org/es/vicomtech/equipo/1193
       icon: hero/arrow-down-tray
   - role: Lead R&D 
     org: Pratech Group, Colombia
@@ -89,6 +89,10 @@ experience:
     end: 2021-05
     summary: |
       Conducted speech and NLP research for digital biomarkers in neurodegenerative disease assessment
+    button:
+      text: PhD Gallery
+      url: https://lme.tf.fau.de/phd-gallery/juan-camilo-vasquez-correa/
+      icon: hero/arrow-down-tray
   - role: Lecturer 
     org: Department of Electronics and Telecommunications Engineering, University of Antioquia, Colombia
     start: 2016-06
