@@ -140,20 +140,28 @@ sections:
       offset: 0
       order: desc
     design:
-      # 'compact' or 'showcase' works best in a 50% column;
-      # 'article-grid' can be used if you prefer card previews
       view: compact
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: 'w-full lg:w-1/2 lg:float-left px-4'
+      css_class: 'w-full lg:w-[40%] lg:float-left px-3'
 
+  # Column 2: LinkedIn (Takes 58% width and unconstrained max-width)
   - block: markdown
     content:
-      title: 'Recent Highlights'
+      title: 'Highlights'
       text: |-
-        <div class="not-prose">
-          <!-- Scrollable container so 3 long embeds don't stretch the page -->
-          <div class="space-y-4 max-h-[600px] overflow-y-auto pr-2">
+        <style>
+          /* Force Hugo Blox container to use the entire column width */
+          .linkedin-col,
+          .linkedin-col .prose,
+          .linkedin-col [class*="max-w-prose"],
+          .linkedin-col [class*="max-w-"] {
+            max-width: 100% !important;
+            width: 100% !important;
+          }
+        </style>
+        <div class="not-prose w-full">
+          <div class="space-y-4 max-h-[600px] overflow-y-auto pr-2 w-full">
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7520838311318372352?collapsed=1" height="545" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7503105834009214976?collapsed=1" height="635" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7459518964558278656?collapsed=1" height="630" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
@@ -166,5 +174,5 @@ sections:
       columns: '1'
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: 'w-full lg:w-1/2 lg:float-left px-4'
+      css_class: 'linkedin-col w-full lg:w-[60%] lg:float-left px-3'
 ---
