@@ -36,6 +36,13 @@ tags:
 - Antispoofing
 - Voice cloning attacks
 
+awards:
+  - name: "Spoofing-aware Automatic Speaker Verification (SASV) Wildspoof Challenge"
+    level: winner
+    date: "2026"
+    note: "First place in the SASV task of the challenge."
+
+
 featured: true
 
 hugoblox:

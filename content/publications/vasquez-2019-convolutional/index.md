@@ -20,4 +20,10 @@ tags:
 - Deep Learning
 - Pathological Speech Processing
 
+awards:
+  - name: "Best paper award - CIARP 2018"
+    level: winner
+    date: "2018"
+    note: "Iberoamerican conference on Pattern Recongition."
+
 ---

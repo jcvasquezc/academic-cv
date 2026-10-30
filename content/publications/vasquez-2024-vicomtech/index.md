@@ -16,4 +16,10 @@ publication: '*Proc. IberSPEECH 2024*'
 
 tags:
 - Automatic Speech Recognition
+
+awards:
+  - name: "Albayzin 2024 Bilingual Basque-Spanish Speech to Text (BBS-S2T) Challenge"
+    level: winner
+    date: "2024"
+    note: "Best system for bilingual Basque-Spanish code-switching speech recognition."
 ---

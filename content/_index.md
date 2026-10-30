@@ -143,7 +143,7 @@ sections:
       view: compact
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: 'w-full lg:w-[40%] lg:float-left px-3'
+      css_class: 'w-full lg:w-[42%] lg:float-left px-3'
 
   # Column 2: LinkedIn (Takes 58% width and unconstrained max-width)
   - block: markdown
@@ -174,5 +174,5 @@ sections:
       columns: '1'
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: 'linkedin-col w-full lg:w-[60%] lg:float-left px-3'
+      css_class: 'linkedin-col w-full lg:w-[58%] lg:float-left px-3'
 ---

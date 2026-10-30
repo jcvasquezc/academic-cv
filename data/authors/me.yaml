@@ -142,11 +142,11 @@ awards:
   - title: Albayzin 2024 Bilingual Basque-Spanish Speech to Text (BBS-S2T) Challenge
     awarder: Iberspeech
     date: "2024"
-    summary: Best system for bilingual Basque-Spanish code-switching speech recognition in .
+    summary: Best system for bilingual Basque-Spanish code-switching speech recognition.
     icon: hero/trophy
   - title: Best paper award
     awarder: CIARP
-    date: "2024"
+    date: "2018"
     summary: Deep learning methods for assessmentof Parkinson’s disease patients from speech.
     icon: hero/trophy
   - title: IEEE travel grant
