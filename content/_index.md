@@ -162,11 +162,11 @@ sections:
           @media (min-width: 1024px) {
             /* 2. Left column (News) */
             #news {
-              width: 38% !important;
+              width: 40% !important;
               float: left !important;
               clear: none !important;
               /* Distance from the left page border */
-              padding-left: 4rem !important;
+              padding-left: 6rem !important;
               /* Gap between News and LinkedIn */
               padding-right: 1.5rem !important;
             }
@@ -179,7 +179,7 @@ sections:
               /* Gap between News and LinkedIn */
               padding-left: 1.5rem !important;
               /* Distance from the right page border */
-              padding-right: 4rem !important;
+              padding-right: 6rem !important;
             }
 
             /* Prevent Hugo Blox from restricting embed width */
