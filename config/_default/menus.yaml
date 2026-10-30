@@ -28,28 +28,3 @@ main:
   # - name: Research
   #   url: /#research
   #   weight: 12
-
-main:
-  - name: Bio
-    url: /
-    weight: 10
-
-  - name: Publications
-    url: /#publications
-    weight: 20
-
-  - name: News
-    url: /#news
-    weight: 30
-
-  - name: Experience
-    url: /experience/ # or /#experience if it's on the homepage
-    weight: 40
-
-  - name: Projects
-    url: /projects/ # or /#projects if it's on the homepage
-    weight: 50
-
-  - name: Tags
-    url: /tags/
-    weight: 60
