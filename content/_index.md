@@ -119,6 +119,7 @@ sections:
           - projects
     design:
       view: card
+      columns: 3
 
   - block: collection
     id: news
