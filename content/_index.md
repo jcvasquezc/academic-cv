@@ -118,7 +118,7 @@ sections:
         folders:
           - projects
     design:
-      view: card
+      view: article-grid
       columns: 3
 
   - block: collection
@@ -154,9 +154,9 @@ sections:
         <div class="not-prose">
           <!-- Scrollable container so 3 long embeds don't stretch the page -->
           <div class="space-y-4 max-h-[600px] overflow-y-auto pr-2">
-            <iframe src="<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7520838311318372352?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
-            <iframe src="<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7503105834009214976?collapsed=1" height="634" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
-            <iframe src="<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7459518964558278656?collapsed=1" height="628" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7520838311318372352?collapsed=1" height="545" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7503105834009214976?collapsed=1" height="635" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7459518964558278656?collapsed=1" height="630" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
           </div>
           <p class="mt-4 text-center">
             <a class="text-primary-600 hover:underline font-medium" href="https://www.linkedin.com/in/jcvasquezc/recent-activity/all/">See more on LinkedIn →</a>
