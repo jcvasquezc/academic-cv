@@ -166,20 +166,20 @@ sections:
               float: left !important;
               clear: none !important;
               /* Distance from the left page border */
-              padding-left: 6rem !important;
+              padding-left: 10rem !important;
               /* Gap between News and LinkedIn */
               padding-right: 1.5rem !important;
             }
 
             /* 3. Right column (LinkedIn) */
             .linkedin-col {
-              width: 58% !important;
+              width: 55% !important;
               float: left !important;
               clear: none !important;
               /* Gap between News and LinkedIn */
               padding-left: 1.5rem !important;
               /* Distance from the right page border */
-              padding-right: 6rem !important;
+              padding-right: 10rem !important;
             }
 
             /* Prevent Hugo Blox from restricting embed width */

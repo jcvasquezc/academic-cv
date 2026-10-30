@@ -37,10 +37,10 @@ tags:
 - Voice cloning attacks
 
 awards:
-  - name: "Spoofing-aware Automatic Speaker Verification (SASV) Wildspoof Challenge"
+  - name: "Wildspoof Challenge"
     level: winner
     date: "2026"
-    note: "First place in the SASV task of the challenge."
+    note: "First place in the SASV task."
 
 
 featured: true
