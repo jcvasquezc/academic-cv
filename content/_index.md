@@ -148,32 +148,48 @@ sections:
   # Column 2: LinkedIn Highlights (62% width)
   - block: markdown
     content:
-      title: 'LinkedIn Highlights'
+      title: 'Highlights'
       text: |-
         <style>
+          /* 1. Mobile padding (prevents content from touching the screen edges on phones) */
+          #news,
+          .linkedin-col {
+            box-sizing: border-box !important;
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
+          }
+
           @media (min-width: 1024px) {
-            /* Force both sections side-by-side */
+            /* 2. Left column (News) */
             #news {
               width: 38% !important;
               float: left !important;
               clear: none !important;
-              box-sizing: border-box !important;
+              /* Distance from the left page border */
+              padding-left: 4rem !important;
+              /* Gap between News and LinkedIn */
               padding-right: 1.5rem !important;
             }
+
+            /* 3. Right column (LinkedIn) */
             .linkedin-col {
-              width: 62% !important;
+              width: 58% !important;
               float: left !important;
               clear: none !important;
-              box-sizing: border-box !important;
+              /* Gap between News and LinkedIn */
               padding-left: 1.5rem !important;
+              /* Distance from the right page border */
+              padding-right: 4rem !important;
             }
-            /* Eliminate Hugo Blox's narrow prose width limits */
+
+            /* Prevent Hugo Blox from restricting embed width */
             .linkedin-col .prose,
             .linkedin-col [class*="max-w-"] {
               max-width: 100% !important;
               width: 100% !important;
             }
-            /* Auto-clear float on the next section */
+
+            /* Clear the float for the section directly below */
             .linkedin-col + section {
               clear: both !important;
             }
