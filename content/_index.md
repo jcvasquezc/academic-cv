@@ -162,24 +162,24 @@ sections:
           @media (min-width: 1024px) {
             /* 2. Left column (News) */
             #news {
-              width: 40% !important;
+              width: 50% !important;
               float: left !important;
               clear: none !important;
               /* Distance from the left page border */
-              padding-left: 10rem !important;
+              padding-left: 12rem !important;
               /* Gap between News and LinkedIn */
               padding-right: 1.5rem !important;
             }
 
             /* 3. Right column (LinkedIn) */
             .linkedin-col {
-              width: 55% !important;
+              width: 50% !important;
               float: left !important;
               clear: none !important;
               /* Gap between News and LinkedIn */
               padding-left: 1.5rem !important;
               /* Distance from the right page border */
-              padding-right: 10rem !important;
+              padding-right: 12rem !important;
             }
 
             /* Prevent Hugo Blox from restricting embed width */
@@ -197,9 +197,9 @@ sections:
         </style>
         <div class="not-prose w-full">
           <div class="space-y-4 max-h-[620px] overflow-y-auto pr-2 w-full">
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7520838311318372352?collapsed=1" height="545" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7503105834009214976?collapsed=1" height="635" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
-            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7459518964558278656?collapsed=1" height="630" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7520838311318372352?collapsed=1" height="545" width="95%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7503105834009214976?collapsed=1" height="635" width="95%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
+            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7459518964558278656?collapsed=1" height="630" width="95%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
           </div>
           <p class="mt-4 text-center">
             <a class="text-primary-600 hover:underline font-medium" href="https://www.linkedin.com/in/jcvasquezc/recent-activity/all/">See more on LinkedIn →</a>
