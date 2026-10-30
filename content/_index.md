@@ -120,7 +120,7 @@ sections:
     design:
       view: article-grid
       columns: 3
-
+  # Column 1: Recent News (38% width)
   - block: collection
     id: news
     content:
@@ -140,28 +140,47 @@ sections:
       offset: 0
       order: desc
     design:
+      columns: '1'
       view: compact
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: 'w-full lg:w-[42%] lg:float-left px-3'
 
-  # Column 2: LinkedIn (Takes 58% width and unconstrained max-width)
+  # Column 2: LinkedIn Highlights (62% width)
   - block: markdown
     content:
-      title: 'Highlights'
+      title: 'LinkedIn Highlights'
       text: |-
         <style>
-          /* Force Hugo Blox container to use the entire column width */
-          .linkedin-col,
-          .linkedin-col .prose,
-          .linkedin-col [class*="max-w-prose"],
-          .linkedin-col [class*="max-w-"] {
-            max-width: 100% !important;
-            width: 100% !important;
+          @media (min-width: 1024px) {
+            /* Force both sections side-by-side */
+            #news {
+              width: 38% !important;
+              float: left !important;
+              clear: none !important;
+              box-sizing: border-box !important;
+              padding-right: 1.5rem !important;
+            }
+            .linkedin-col {
+              width: 62% !important;
+              float: left !important;
+              clear: none !important;
+              box-sizing: border-box !important;
+              padding-left: 1.5rem !important;
+            }
+            /* Eliminate Hugo Blox's narrow prose width limits */
+            .linkedin-col .prose,
+            .linkedin-col [class*="max-w-"] {
+              max-width: 100% !important;
+              width: 100% !important;
+            }
+            /* Auto-clear float on the next section */
+            .linkedin-col + section {
+              clear: both !important;
+            }
           }
         </style>
         <div class="not-prose w-full">
-          <div class="space-y-4 max-h-[600px] overflow-y-auto pr-2 w-full">
+          <div class="space-y-4 max-h-[620px] overflow-y-auto pr-2 w-full">
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7520838311318372352?collapsed=1" height="545" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7503105834009214976?collapsed=1" height="635" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
             <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7459518964558278656?collapsed=1" height="630" width="100%" frameborder="0" allowfullscreen title="Publicación integrada"></iframe>
@@ -174,5 +193,5 @@ sections:
       columns: '1'
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: 'linkedin-col w-full lg:w-[58%] lg:float-left px-3'
+      css_class: 'linkedin-col'
 ---
