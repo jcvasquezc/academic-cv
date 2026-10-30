@@ -25,11 +25,7 @@ event_all_day: false
 authors:
   - me
 
-tags:
-  - Markdown
-  - Presentations
-  - Open Science
-  - Academic
+
 
 featured: true
 

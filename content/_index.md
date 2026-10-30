@@ -37,10 +37,8 @@ sections:
     content:
       title: 'Research'
       text: |-
-        My research centers on bridging theoretical deep learning with practical, human-centered applications in speech processing, affective computing, audio security, and clinical health. A major foundation of my academic output focuses on biomedical signal processing, where I have pioneered multimodal deep learning architectures, transfer learning strategies, and digital health tools for the automated assessment and telemonitoring of neurodegenerative disorders like Parkinson’s and Alzheimer’s disease. 
-        Building on this foundation, my current research interests include:
-
         <div class="not-prose" style="position:relative;left:50%;transform:translateX(-50%);width:min(1100px,92vw);">
+        My research centers on bridging theoretical deep learning with practical, human-centered applications in speech processing, affective computing, audio security, and digital health. My current research interests include:
         <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div class="flex flex-col rounded-xl border border-gray-200 bg-gray-50 p-6 dark:border-gray-700 dark:bg-gray-800/50">
         <div class="mb-3 text-3xl">🎙️</div>
@@ -92,6 +90,7 @@ sections:
     id: publications
     content:
       title: Featured Publications
+      count: 6
       filters:
         folders:
           - publications
@@ -127,11 +126,8 @@ sections:
       title: Recent News
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
       count: 3
-      # Filter on criteria
       filters:
         author: ''
         category: ''
@@ -140,14 +136,34 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
+      # 'compact' or 'showcase' works best in a 50% column;
+      # 'article-grid' can be used if you prefer card previews
+      view: compact
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: ['20px', '0', '20px', '0']
+      css_class: 'w-full lg:w-1/2 lg:float-left px-4'
+
+  - block: markdown
+    content:
+      title: 'Recent Highlights'
+      text: |-
+        <div class="not-prose">
+          <!-- Scrollable container so 3 long embeds don't stretch the page -->
+          <div class="space-y-4 max-h-[600px] overflow-y-auto pr-2">
+            <iframe src="<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7520838311318372352?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
+            <iframe src="<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7503105834009214976?collapsed=1" height="634" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
+            <iframe src="<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7459518964558278656?collapsed=1" height="628" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada"></iframe>" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
+          </div>
+          <p class="mt-4 text-center">
+            <a class="text-primary-600 hover:underline font-medium" href="https://www.linkedin.com/in/jcvasquezc/recent-activity/all/">See more on LinkedIn →</a>
+          </p>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: 'w-full lg:w-1/2 lg:float-left px-4'
 ---
