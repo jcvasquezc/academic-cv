@@ -162,6 +162,8 @@ sections:
           @media (min-width: 1024px) {
             /* 2. Left column (News) */
             #news {
+              margin-left: max(0px, calc((100vw - 1200px) / 2)) !important;
+              width: calc(50% - 1rem) !important;
               width: 50% !important;
               float: left !important;
               clear: none !important;
@@ -173,7 +175,7 @@ sections:
 
             /* 3. Right column (LinkedIn) */
             .linkedin-col {
-              width: 50% !important;
+              width: calc(50% - 1rem) !important;
               float: left !important;
               clear: none !important;
               /* Gap between News and LinkedIn */
@@ -210,4 +212,17 @@ sections:
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: 'linkedin-col'
+
+  - block: tag_cloud
+    id: tags
+    content:
+      title: Topics & Tags
+      # Taxonomy to display: tag or category
+      taxonomy: tag
+    design:
+      columns: '1'
+      spacing:
+        padding: ['20px', '0', '40px', '0']
+      # 'clear-both' ensures it renders cleanly below any floated sections above
+      css_class: 'clear-both max-w-5xl mx-auto px-4'
 ---

@@ -12,13 +12,11 @@ postnominals:
   - PhD
 status:
   icon: "☕️"
-role: AI Research Scientist
+role: AI Researcher
 bio: |
-  I'm an AI research scientist at Vicomtech working on speech and multimodal AI:
-  multilingual ASR, emotion-aware avatar animation, voice anti-spoofing, and
-  speech-based health assessment. With a PhD from FAU Erlangen-Nürnberg and 9+ years
-  across academia and industry, I turn research into systems for accessibility,
-  healthcare, and human–computer interaction.
+  I'm an Associate Researcher at <a href="https://www.vicomtech.org/en" target="_blank" rel="noopener noreferrer">Vicomtech</a> (since 2022). I do research on machine learning and speech processing, with a focus on multilingual ASR, emotion-aware avatar animation, voice anti-spoofing, and speech-based health assessment. 
+  I completed a joint PhD in machine learning and speech processing between <a href="https://www.udea.edu.co" target="_blank" rel="noopener noreferrer">Universidad de Antioquia</a> and the Pattern Recognition Lab at <a href="https://www.fau.eu/" target="_blank" rel="noopener noreferrer">FAU Erlangen-Nürnberg</a> (2018–2022). 
+  With over 9 years across academia and industry, I turn research into systems for accessibility, healthcare, and human–computer interaction.
 
 affiliations:
   - name: Vicomtech Foundation
@@ -45,88 +43,114 @@ interests:
 
 education:
   - degree: Doktor Ingenieur (Ph.D.)
-    institution: 
-      - Dep. of Informatik, Friedrich Alexander University Erlangen-Nürnberg, Germany
-      - Dep. Electronics and Telecommunications Engineering, University of Antioquia, Colombia
-    start: 2018-04
-    end: 2022-10
+    institution: FAU Erlangen-Nürnberg & Universidad de Antioquia
+    start: '2018-04'
+    end: '2022-10'
     summary: |
-      Multimodal Assessment of Parkinson’s Disease Patients Using Information from Speech, Handwriting, and Gait.
+      * Joint doctorate (Co-tutelle) between the Dept. of Computer Science (FAU) and Dept. of Electronics & Telecommunications Engineering (UdeA).
+      * *Dissertation:* Multimodal Assessment of Parkinson’s Disease Patients Using Information from Speech, Handwriting, and Gait.
     button:
       text: Download dissertation
       url: https://open.fau.de/items/2d2cf672-9c69-43a1-9d6e-ea85acdc5130
       icon: hero/arrow-down-tray
-  - degree: MS Telecommunications Engineering
-    institution: University of Antioquia, Colombia
-    start: 2014-01
-    end: 2016-06
-  - degree: BS Electronics Engineering
-    institution: University of Antioquia, Colombia
-    start: 2007-10
-    end: 2013-12
+
+  - degree: M.Sc. in Telecommunications Engineering
+    institution: Universidad de Antioquia, Colombia
+    start: '2014-01'
+    end: '2016-06'
+
+  - degree: B.Eng. in Electronics Engineering
+    institution: Universidad de Antioquia, Colombia
+    start: '2007-10'
+    end: '2013-12'
 
 
 experience:
   - role: Associate Researcher
     org: Vicomtech Foundation, Spain
     start: 2022-07
-    end: present
+    end: ''
     summary: |
-      Research and development of speech technologies, multilingual ASR, speech-driven avatar animation, emotion recognition, and voice biometrics.
+      * Research and development of speech technologies, multilingual ASR, speech-driven avatar animation, emotion recognition, and voice biometrics.
+      * Technical leadership on European and national competitive R&D projects.
     button:
-      text: View portfolio
+      text: Institutional Profile
       url: https://www.vicomtech.org/es/vicomtech/equipo/1193
-      icon: hero/arrow-down-tray
-  - role: Lead R&D 
-    org: Pratech Group, Colombia
-    start: 2021-06
-    end: 2022-07
+      icon: hero/arrow-top-right-on-square
+  - role: Lead R&D
+    org: Pratech Group
+    org_url: https://www.pratechgroup.com/
+    start: '2021-06'
+    end: '2022-07'
     summary: |
-      Led R&D projects leveraging AI and natural language understanding to enhance customer service. Led research and innovation strategies for new product development.
-  - role: Staff Researcher 
-    org: Pattern Recognition Lab, Friedrich Alexander University Erlangen-Nuremberg, Germany
-    start: 2018-04
-    end: 2021-05
+      * Led R&D projects leveraging conversational AI and natural language understanding (NLU) to improve customer service systems.
+      * Defined research and innovation roadmaps for new enterprise product development.
+  - role: Staff Researcher
+    org: Pattern Recognition Lab, FAU Erlangen-Nürnberg
+    org_url: https://lme.tf.fau.de/
+    start: '2018-04'
+    end: '2021-05'
     summary: |
-      Conducted speech and NLP research for digital biomarkers in neurodegenerative disease assessment
+      * Researched speech, acoustics, and multimodal machine learning models to identify digital biomarkers for neurodegenerative disease assessment (Parkinson's, dysarthria).
     button:
       text: PhD Gallery
       url: https://lme.tf.fau.de/phd-gallery/juan-camilo-vasquez-correa/
-      icon: hero/arrow-down-tray
-  - role: Lecturer 
-    org: Department of Electronics and Telecommunications Engineering, University of Antioquia, Colombia
-    start: 2016-06
-    end: 2020-01
+      icon: hero/arrow-top-right-on-square
+  - role: Lecturer
+    org: Universidad de Antioquia
+    org_url: https://www.udea.edu.co/
+    start: '2016-06'
+    end: '2020-01'
     summary: |
-      Teaching: Digital Signal Processing (bachelor), designing and delivering curriculum. Supervision of bachelor and master theses in speech processing and machine learning.
-  - role: Intern Researcher 
-    org: Telefónica R&D, Spain
-    start: 2015-11
-    end: 2016-03
+      * Taught *Digital Signal Processing* at the undergraduate level; developed curricula and laboratory sessions.
+      * Supervised undergraduate and Master's theses in applied machine learning and biomedical acoustics.
+  - role: Research Intern
+    org: Telefónica R&D
+    org_url: https://www.telefonica.com/
+    start: '2015-11'
+    end: '2016-03'
     summary: |
-      Designed speech processing algorithms for noisy environments to extract paralinguistic traits.
-
-
+      * Designed acoustic feature extraction and speech processing algorithms for noisy environments to capture paralinguistic and emotional traits.
 
 skills:
-  - name: Technical Skills
+  - name: Speech & Audio AI
     items:
-      - label: Python (Pytorch, Transformers, NeMo, FastAPI)
+      - label: PyTorch & Speech Foundational Models (Whisper, WavLM)
         level: 5
-      - label: Docker
+      - label: NVIDIA NeMo & Hugging Face Transformers
         level: 5
-      - label: Git
+      - label: Acoustic Feature Extraction (openSMILE, Praat, Librosa)
+        level: 5
+      - label: Speech Toolkits (SpeechBrain, Kaldi, ESPnet)
         level: 4
-  - name: Research & Communication
+      - label: Digital Signal Processing (DSP)
+        level: 5
+
+  - name: Engineering & Infrastructure
     items:
-      - label: Academic Writing
+      - label: Python (FastAPI, NumPy, SciPy)
         level: 5
-      - label: LaTeX
+      - label: Docker & Containerization
         level: 5
-      - label: Project Managment
+      - label: Linux & HPC Cluster Computing (Slurm, Multi-GPU)
         level: 4
-      - label: Grant Proposals
+      - label: Git & CI/CD
         level: 4
+      - label: Model Optimization (ONNX Runtime, Quantization)
+        level: 4
+
+  - name: Research & Leadership
+    items:
+      - label: Competitive Grant Writing (EU Horizon, CDTI)
+        level: 5
+      - label: Academic Writing & LaTeX
+        level: 5
+      - label: Project & Consortium Management
+        level: 4
+      - label: Thesis Supervision & Mentorship
+        level: 5
+      - label: Peer Review (IEEE, ISCA, Elsevier)
+        level: 5
 
 languages:
   - name: Spanish
