@@ -11,7 +11,8 @@ date: '2015-01-01'
 publishDate: '2026-08-10T10:22:36.747918Z'
 publication_types:
 - paper-conference
-publication: '*2015 Symposium on Image, Signal Processing and Artificial Vision*'
+publication:
+  name: '*2015 Symposium on Image, Signal Processing and Artificial Vision*'
 
 tags:
 - Emotion Recognition

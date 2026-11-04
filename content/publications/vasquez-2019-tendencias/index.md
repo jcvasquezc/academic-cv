@@ -7,5 +7,6 @@ date: '2019-01-01'
 publishDate: '2026-08-10T10:22:36.243334Z'
 publication_types:
 - article-journal
-publication: '*REVISTA DE LA FACULTAD DE CIENCIAS FARMACÉUTICAS Y ALIMENTARIAS*'
+publication:
+  name: '*REVISTA DE LA FACULTAD DE CIENCIAS FARMACÉUTICAS Y ALIMENTARIAS*'
 ---

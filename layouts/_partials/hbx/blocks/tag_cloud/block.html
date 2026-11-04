@@ -1,7 +1,7 @@
 {{/* Dynamic Tag Cloud for Hugo Blox */}}
 <div class="flex flex-wrap gap-2 justify-center items-center my-6">
   {{ range $name, $taxonomy := site.Taxonomies.tags }}
-    <a href="{{ relLangURL (printf "/tags/%s/" ($name | urlize)) }}"
+    <a href="{{ relLangURL (printf "/academic-cv/tags/%s/" ($name | urlize)) }}"
        class="inline-flex items-center px-3 py-1 text-sm font-medium rounded-full bg-neutral-100 hover:bg-primary-50 text-neutral-700 hover:text-primary-600 dark:bg-neutral-800 dark:hover:bg-neutral-700 dark:text-neutral-200 dark:hover:text-primary-400 transition-colors shadow-sm">
       #{{ $name }}
       <span class="ml-1 text-xs opacity-60">({{ $taxonomy.Count }})</span>

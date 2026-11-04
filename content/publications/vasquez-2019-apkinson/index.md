@@ -17,7 +17,8 @@ date: '2019-01-01'
 publishDate: '2026-08-10T10:22:36.549437Z'
 publication_types:
 - paper-conference
-publication: '*Proc. Interspeech 2019*'
+publication:
+  name: '*Proc. Interspeech 2019*'
 
 tags:
 - Parkinson's Disease

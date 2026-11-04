@@ -16,7 +16,8 @@ date: '2023-01-01'
 publishDate: '2026-08-10T10:22:36.128802Z'
 publication_types:
 - article-journal
-publication: '*Information*'
+publication:
+  name: '*Information*'
 
 tags:
 - Federated Learning

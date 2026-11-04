@@ -12,7 +12,8 @@ date: '2021-01-01'
 publishDate: '2026-08-10T10:22:36.189367Z'
 publication_types:
 - article-journal
-publication: '*Pattern Analysis and Applications*'
+publication:
+  name: '*Pattern Analysis and Applications*'
 
 tags:
 - Parkinson's Disease

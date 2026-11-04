@@ -11,7 +11,8 @@ date: '2021-01-01'
 publishDate: '2026-08-10T10:22:36.155422Z'
 publication_types:
 - article-journal
-publication: '*IEEE Transactions on Affective Computing*'
+publication:
+  name: '*IEEE Transactions on Affective Computing*'
 
 tags:
 - Parkinson's Disease

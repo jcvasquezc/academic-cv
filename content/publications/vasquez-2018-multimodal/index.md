@@ -11,7 +11,8 @@ date: '2018-01-01'
 publishDate: '2026-08-10T10:22:36.276443Z'
 publication_types:
 - article-journal
-publication: '*IEEE journal of biomedical and health informatics*'
+publication:
+  name: '*IEEE journal of biomedical and health informatics*'
 
 peer_reviewed: true
 open_access: true

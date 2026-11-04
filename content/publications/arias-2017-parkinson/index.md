@@ -9,7 +9,8 @@ date: '2017-01-01'
 publishDate: '2026-08-10T10:22:36.283712Z'
 publication_types:
 - article-journal
-publication: '*Cognitive Computation*'
+publication:
+  name: '*Cognitive Computation*'
 
 tags:
 - Parkinson's Disease

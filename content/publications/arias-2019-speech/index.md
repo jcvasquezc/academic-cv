@@ -13,7 +13,8 @@ date: '2019-01-01'
 publishDate: '2026-08-10T10:22:36.508910Z'
 publication_types:
 - article-journal
-publication: '*Laryngo-Rhino-Otologie*'
+publication:
+  name: '*Laryngo-Rhino-Otologie*'
 
 tags:
 - Cochlear Implants

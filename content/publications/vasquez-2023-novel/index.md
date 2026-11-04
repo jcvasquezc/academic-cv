@@ -8,7 +8,8 @@ date: '2023-01-01'
 publishDate: '2026-08-10T10:22:36.135501Z'
 publication_types:
 - article-journal
-publication: '*Sensors*'
+publication:
+  name: '*Sensors*'
 
 peer_reviewed: true
 open_access: true

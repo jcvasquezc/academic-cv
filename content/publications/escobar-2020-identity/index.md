@@ -11,7 +11,8 @@ date: '2020-01-01'
 publishDate: '2026-08-10T10:22:36.229977Z'
 publication_types:
 - article-journal
-publication: '*TecnoLógicas*'
+publication:
+  name: '*TecnoLógicas*'
 
 tags:
 - Biometrics

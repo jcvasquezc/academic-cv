@@ -13,5 +13,6 @@ date: '2021-01-01'
 publishDate: '2026-08-10T10:22:36.414534Z'
 publication_types:
 - paper-conference
-publication: '*2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)*'
+publication:
+  name: '*2021 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)*'
 ---

@@ -12,7 +12,8 @@ date: '2019-01-01'
 publishDate: '2026-08-10T10:22:36.563013Z'
 publication_types:
 - paper-conference
-publication: '*Iberoamerican Congress on Pattern Recognition*'
+publication:
+  name: '*Iberoamerican Congress on Pattern Recognition*'
 
 
 tags:

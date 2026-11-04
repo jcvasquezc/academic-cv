@@ -11,7 +11,8 @@ date: '2014-01-01'
 publishDate: '2026-08-10T10:22:36.768853Z'
 publication_types:
 - paper-conference
-publication: '*2014 XIX Symposium on Image, Signal Processing and Artificial Vision*'
+publication:
+  name: '*2014 XIX Symposium on Image, Signal Processing and Artificial Vision*'
 
 tags:
 - Speech Enhancement

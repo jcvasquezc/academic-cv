@@ -12,7 +12,8 @@ date: '2024-01-01'
 publishDate: '2026-08-10T10:22:36.373882Z'
 publication_types:
 - paper-conference
-publication: '*Proc. IberSPEECH 2024*'
+publication:
+  name: '*Proc. IberSPEECH 2024*'
 
 tags:
 - Automatic Speech Recognition

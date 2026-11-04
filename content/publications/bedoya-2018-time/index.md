@@ -9,7 +9,8 @@ date: '2018-01-01'
 publishDate: '2026-08-10T10:22:36.256615Z'
 publication_types:
 - article-journal
-publication: '*TecnoLógicas*'
+publication:
+  name: '*TecnoLógicas*'
 
 tags:
 - Gait Processing

@@ -12,7 +12,8 @@ date: '2014-01-01'
 publishDate: '2026-08-10T10:22:36.761808Z'
 publication_types:
 - paper-conference
-publication: '*2014 International Carnahan Conference on Security Technology (ICCST)*'
+publication:
+  name: '*2014 International Carnahan Conference on Security Technology (ICCST)*'
 
 tags:
 - Emotion Recognition

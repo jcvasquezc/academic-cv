@@ -20,7 +20,8 @@ publication_types: ["paper-conference"]
 peer_reviewed: true
 open_access: false
 
-publication: '*International Conference on Acoustic Speech and Signal Processing (ICASSP) 2026*'
+publication:
+  name: '*International Conference on Acoustic Speech and Signal Processing (ICASSP) 2026*'
 
 
 funding:

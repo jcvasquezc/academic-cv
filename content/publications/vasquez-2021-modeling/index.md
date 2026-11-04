@@ -11,7 +11,8 @@ date: '2021-01-01'
 publishDate: '2026-08-10T10:22:36.462428Z'
 publication_types:
 - paper-conference
-publication: '*Interspeech 2021*'
+publication:
+  name: '*Interspeech 2021*'
 
 tags:
 - Parkinson's Disease

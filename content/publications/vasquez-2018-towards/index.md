@@ -10,7 +10,8 @@ date: '2018-01-01'
 publishDate: '2026-08-10T10:22:36.269816Z'
 publication_types:
 - article-journal
-publication: '*Journal of communication disorders*'
+publication:
+  name: '*Journal of communication disorders*'
 
 tags:
 - Parkinson's Disease

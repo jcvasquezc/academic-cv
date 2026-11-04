@@ -8,7 +8,8 @@ date: '2021-01-01'
 publishDate: '2026-08-10T10:22:36.162159Z'
 publication_types:
 - article-journal
-publication: '*TecnoLógicas*'
+publication:
+  name: '*TecnoLógicas*'
 
 tags:
 - Natural Language Processing

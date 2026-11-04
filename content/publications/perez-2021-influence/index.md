@@ -15,7 +15,8 @@ date: '2021-01-01'
 publishDate: '2026-08-10T10:22:36.421334Z'
 publication_types:
 - paper-conference
-publication: '*Interspeech*'
+publication:
+  name: '*Interspeech*'
 
 tags:
 - Alzheimer's Disease

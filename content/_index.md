@@ -155,7 +155,7 @@ sections:
       order: desc
     design:
       columns: '1'
-      view: compact
+      view: card
       spacing:
         padding: ['20px', '0', '20px', '0']
 

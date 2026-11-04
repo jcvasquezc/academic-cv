@@ -20,7 +20,8 @@ publication_types: ["paper-conference"]
 peer_reviewed: true
 open_access: false
 
-publication: '*International Conference on Text, Speech, and Dialogue (TSD) 2026*'
+publication:
+  name: '*International Conference on Text, Speech, and Dialogue (TSD) 2026*'
 
 
 funding:

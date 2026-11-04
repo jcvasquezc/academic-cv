@@ -11,7 +11,8 @@ date: '2025-01-01'
 publishDate: '2026-08-10T10:22:36.325329Z'
 publication_types:
 - paper-conference
-publication: '*SEPLN-PD*'
+publication:
+  name: '*SEPLN-PD*'
 
 tags:
 - Emotion Recognition

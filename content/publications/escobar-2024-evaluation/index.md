@@ -9,7 +9,8 @@ date: '2024-01-01'
 publishDate: '2026-08-10T10:22:36.122169Z'
 publication_types:
 - article-journal
-publication: '*Multimedia Tools and Applications*'
+publication:
+  name: '*Multimedia Tools and Applications*'
 
 tags:
 - Dialogue Systems

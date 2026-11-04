@@ -11,7 +11,8 @@ date: '2016-01-01'
 publishDate: '2026-08-10T10:22:36.297044Z'
 publication_types:
 - article-journal
-publication: '*Revista Facultad de Ingenierı́a Universidad de Antioquia*'
+publication:
+  name: '*Revista Facultad de Ingenierı́a Universidad de Antioquia*'
 
 tags:
 - Cleft Lip & Palate
