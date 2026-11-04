@@ -86,6 +86,20 @@ sections:
         </div>
     design:
       columns: '1'
+
+  - block: tag_cloud
+    id: tags
+    content:
+      title: Research Topics & Keywords
+      # Taxonomy to display: tag or category
+      taxonomy: tag
+    design:
+      columns: '1'
+      spacing:
+        padding: ['20px', '0', '40px', '0']
+      # 'clear-both' ensures it renders cleanly below any floated sections above
+      css_class: 'clear-both max-w-5xl mx-auto px-4'
+
   - block: collection
     id: publications
     content:
@@ -164,7 +178,6 @@ sections:
             #news {
               margin-left: max(0px, calc((100vw - 1200px) / 2)) !important;
               width: calc(50% - 1rem) !important;
-              width: 50% !important;
               float: left !important;
               clear: none !important;
               /* Distance from the left page border */
@@ -213,16 +226,5 @@ sections:
         padding: ['20px', '0', '20px', '0']
       css_class: 'linkedin-col'
 
-  - block: tag_cloud
-    id: tags
-    content:
-      title: Research Topics & Keywords
-      # Taxonomy to display: tag or category
-      taxonomy: tag
-    design:
-      columns: '1'
-      spacing:
-        padding: ['20px', '0', '40px', '0']
-      # 'clear-both' ensures it renders cleanly below any floated sections above
-      css_class: 'clear-both max-w-5xl mx-auto px-4'
+
 ---
