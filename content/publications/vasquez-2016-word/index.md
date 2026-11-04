@@ -9,8 +9,8 @@ date: '2016-01-01'
 publishDate: '2026-08-10T10:22:36.690620Z'
 publication_types:
 - paper-conference
-publication: '*2016 XXI Symposium on Signal Processing, Images and Artificial Vision
-  (STSIVA)*'
+publication:
+  name: "*2016 XXI Symposium on Signal Processing, Images and Artificial Vision (STSIVA)*"
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing

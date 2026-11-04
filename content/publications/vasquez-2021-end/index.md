@@ -12,9 +12,8 @@ date: '2021-01-01'
 publishDate: '2026-08-10T10:22:36.455655Z'
 publication_types:
 - paper-conference
-publication: '*ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)*'
-
+publication:
+  name: "*ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
 tags:
 - Parkinson's Disease
 - Gait Processing

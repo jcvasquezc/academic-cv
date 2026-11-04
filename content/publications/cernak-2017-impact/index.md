@@ -16,9 +16,8 @@ date: '2017-01-01'
 publishDate: '2026-08-10T10:22:36.670511Z'
 publication_types:
 - paper-conference
-publication: '*2017 IEEE International Conference on Acoustics, Speech and Signal
-  Processing (ICASSP)*'
-
+publication:
+  name: "*2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
 tags:
 - Pathological Speech Processing
 ---

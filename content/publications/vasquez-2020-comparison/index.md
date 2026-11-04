@@ -10,9 +10,8 @@ date: '2020-01-01'
 publishDate: '2026-08-10T10:22:36.495764Z'
 publication_types:
 - paper-conference
-publication: '*ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)*'
-
+publication:
+  name: "*ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
 tags:
 - Parkinson's Disease
 - Handwriting Processing

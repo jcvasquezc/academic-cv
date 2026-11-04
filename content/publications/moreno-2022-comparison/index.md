@@ -9,9 +9,8 @@ date: '2022-01-01'
 publishDate: '2026-08-10T10:22:36.400846Z'
 publication_types:
 - paper-conference
-publication: '*Applied Computer Sciences in Engineering: 9th Workshop on Engineering
-  Applications, WEA 2022, Bogotá, Colombia, November 30--December 2, 2022, Proceedings*'
-
+publication:
+  name: "*Applied Computer Sciences in Engineering: 9th Workshop on Engineering Applications, WEA 2022, Bogotá, Colombia, November 30--December 2, 2022, Proceedings*"
 tags:
 - Natural Language Processing
 - Named Entity Recognition

@@ -10,9 +10,8 @@ date: '2019-01-01'
 publishDate: '2026-08-10T10:22:36.515650Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 57th Annual Meeting of the Association for Computational
-  Linguistics: Student Research Workshop*'
-
+publication:
+  name: "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop*"
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing

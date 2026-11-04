@@ -16,9 +16,8 @@ date: '2025-01-01'
 publishDate: '2026-08-10T10:22:36.339000Z'
 publication_types:
 - paper-conference
-publication: '*Proceedings of the 15th International Workshop on Spoken Dialogue Systems
-  Technology*'
-
+publication:
+  name: "*Proceedings of the 15th International Workshop on Spoken Dialogue Systems Technology*"
 tags:
 - Automatic Speech Recognition
 - Natural Language Processing
