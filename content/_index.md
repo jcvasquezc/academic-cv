@@ -176,8 +176,7 @@ sections:
           @media (min-width: 1024px) {
             /* 2. Left column (News) */
             #news {
-              margin-left: max(0px, calc((100vw - 1200px) / 2)) !important;
-              width: calc(50% - 1rem) !important;
+              width: 50% !important;
               float: left !important;
               clear: none !important;
               /* Distance from the left page border */
@@ -188,7 +187,7 @@ sections:
 
             /* 3. Right column (LinkedIn) */
             .linkedin-col {
-              width: calc(50% - 1rem) !important;
+              width: 50% !important;
               float: left !important;
               clear: none !important;
               /* Gap between News and LinkedIn */
