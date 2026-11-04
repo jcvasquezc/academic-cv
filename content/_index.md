@@ -216,7 +216,7 @@ sections:
   - block: tag_cloud
     id: tags
     content:
-      title: Topics & Tags
+      title: Research Topics & Keywords
       # Taxonomy to display: tag or category
       taxonomy: tag
     design:
