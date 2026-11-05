@@ -1,17 +1,63 @@
 ---
-title: TAPAS - Training Network on Automatic Processing of PAthological Speech
+title: "TAPAS - Training Network on Automatic Processing of PAthological Speech"
 date: 2018-04-01T06:06:17-05:00
+summary: "Transforming the well-being of individuals with speech pathologies through early detection, automated therapy, and inclusive assisted living technologies."
+
 links:
   - type: site
     url: https://archive.idiap.ch/content/tapas-etn-eu/A/www.tapas-etn-eu.org/
-  - type: video
-    url: https://www.youtube.com/@tapas-h2020-itn/videos
+
 tags:
-  - Pathological Speech processing
+  - Pathological Speech Processing
+  - Digital Biomarkers
+  - Time-series Modeling
 ---
-There are an increasing number of people across Europe with debilitating speech pathologies (e.g., due to stroke, Parkinson's, etc). These groups face communication problems that can lead to social exclusion. They are now being further marginalised by a new wave of speech technology that is increasingly woven into everyday life but which is not robust to atypical speech. TAPAS is a Horizon 2020 Marie Skłodowska-Curie Actions Innovative Training Network European Training Network (MSCA-ITN-ETN) project that aims to transform the well being of these people. The TAPAS work programme targets three key research problems: <b>(a)</b> Detection: We will develop speech processing techniques for early detection of conditions that impact on speech production. The outcomes will be cheap and non-invasive diagnostic tools that provide early warning of the onset of progressive conditions such as Alzheimer's and Parkinson's. <b>(b)</b> Therapy: We will use newly-emerging speech processing techniques to produce automated speech therapy tools. These tools will make therapy more accessible and more individually targeted. Better therapy can increase the chances of recovering intelligible speech after traumatic events such a stroke or oral surgery. <b>(c)</b> Assisted Living: We will re-design current speech technology so that it works well for people with speech impairments and also helps in making informed clinical choices. People with speech impairments often have other co-occurring conditions making them reliant on carers. Speech-driven tools for assisted-living are a way to allow such people to live more independently. TAPAS adopts an inter-disciplinary and multi-sectorial approach. The consortium includes clinical practitioners, academic researchers and industrial partners, with expertise spanning speech engineering, linguistics and clinical science. All members have expertise in some element of pathological speech. This rich network will train a new generation of 15 researchers, equipping them with the skills and resources necessary for lasting success.
 
-In TAPAS, I was an <b>Early-stage researcher</b> in automatic processing of pathological speech, modeling disease progression with multimodal time-series (speech, handwriting, gait) and contributing to long-term personalization of digital health tools.
+There is an increasing number of people across Europe with debilitating speech pathologies (e.g., due to stroke, Parkinson's disease, or ALS). These groups face communication problems that can lead to social exclusion, and they are now being further marginalized by a new wave of consumer speech technology that is rarely robust to atypical speech. 
 
+In TAPAS, I was a **Marie Skłodowska-Curie Early-Stage Researcher (ESR)** in the automatic processing of pathological speech. My research focused on modeling disease progression using multimodal time-series data (speech, handwriting, gait) and contributing to the long-term personalization of digital health tools for neurodegenerative diseases.
 
 <!--more-->
+
+### Project Overview
+
+TAPAS was a Horizon 2020 Marie Skłodowska-Curie Innovative Training Network (MSCA-ITN) that aimed to transform the well-being of individuals with speech impairments. The work programme targeted three core clinical and technological challenges:
+
+1. **Early Detection:** Developing speech processing techniques for the early detection of conditions that impact speech production, resulting in cheap, non-invasive diagnostic tools that provide early warnings for progressive conditions like Alzheimer's and Parkinson's.
+2. **Automated Therapy:** Leveraging newly-emerging speech processing techniques to produce automated, accessible, and individually targeted speech therapy tools to improve recovery chances after traumatic events, such as stroke or oral surgery.
+3. **Assisted Living:** Redesigning current consumer speech technology to be robust against speech impairments, allowing individuals who rely on carers to live more independently using speech-driven assistive tools.
+
+### TAPAS Research Network Video
+
+<div class="not-prose my-6 aspect-video w-full max-w-3xl mx-auto overflow-hidden rounded-xl shadow-lg">
+  <iframe 
+    class="w-full h-full"
+    src="https://www.youtube-nocookie.com/embed/videoseries?list=PL_tO2yY_0N0QzG3p4OQjH6sAqzG3p4OQj" 
+    title="TAPAS Project Video Channel" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+  <p class="text-sm text-center mt-2">
+    <a href="https://www.youtube.com/@tapas-h2020-itn/videos" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline">View the TAPAS H2020 ITN YouTube Channel →</a>
+  </p>
+</div>
+
+### Key Consortium Partners
+
+TAPAS adopted an interdisciplinary and multi-sectorial approach, training a generation of 15 early-stage researchers. The consortium brought together clinical practitioners, academic researchers, and industrial partners, including:
+* **Idiap Research Institute** (Switzerland)
+* **University of Sheffield** (United Kingdom)
+* **FAU Erlangen-Nürnberg** (Germany)
+* **Ludwig-Maximilians-Universität München** (Germany)
+* **University of Antwerp** (Belgium)
+* **Interuniversity Microelectronics Centre (IMEC)** (Belgium)
+
+### Related Publications
+
+{{< related-publications >}}
+
+---
+
+> **Funding Acknowledgment:** 
+> This project received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement **No 766287**.

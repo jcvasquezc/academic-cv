@@ -15,4 +15,7 @@ publication:
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing
+
+projects:
+ - TAPAS
 ---

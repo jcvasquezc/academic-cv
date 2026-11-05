@@ -16,4 +16,7 @@ publication:
 tags:
 - Deep Learning
 - Automatic Speech Recognition
+
+projects:
+ - TAPAS
 ---

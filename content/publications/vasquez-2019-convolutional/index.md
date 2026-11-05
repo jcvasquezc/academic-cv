@@ -27,4 +27,6 @@ awards:
     date: "2018"
     note: "Iberoamerican conference on Pattern Recongition."
 
+projects:
+ - TAPAS
 ---

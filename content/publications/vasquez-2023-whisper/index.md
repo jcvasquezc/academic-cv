@@ -16,6 +16,7 @@ publication:
 tags:
   - Automatic Speech Recognition
 
-
+projects:
+ - GRACE
 
 ---

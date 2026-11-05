@@ -30,7 +30,7 @@ tags:
 - Pathological Speech Processing
 - Biomedical Signal Processing
 
-featured: true
+featured: false
 
 
 
@@ -44,5 +44,7 @@ links:
 - type: zeonodo
   url: https://zenodo.org/records/3687948
 
+projects:
+ - TAPAS
 
 ---
