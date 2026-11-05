@@ -115,33 +115,33 @@ experience:
 skills:
   - name: Speech & Audio AI
     items:
-      - label: PyTorch & Speech Foundational Models (Whisper, WavLM)
+      - label: PyTorch & Speech Models (Whisper, WavLM)
         level: 5
       - label: NVIDIA NeMo & Hugging Face Transformers
         level: 5
-      - label: Acoustic Feature Extraction (openSMILE, Praat, Librosa)
+      - label: Audio Feature Extraction (openSMILE, Praat)
         level: 5
-      - label: Speech Toolkits (SpeechBrain, Kaldi, ESPnet)
+      - label: Speech Toolkits (Kaldi)
         level: 4
-      - label: Digital Signal Processing (DSP)
+      - label: Digital Signal Processing
         level: 5
 
   - name: Engineering & Infrastructure
     items:
-      - label: Python (FastAPI, NumPy, SciPy)
+      - label: Python & Scientific Computing
         level: 5
       - label: Docker & Containerization
         level: 5
-      - label: Linux & HPC Cluster Computing (Slurm, Multi-GPU)
+      - label: Linux & HPC Cluster (Slurm, Multi-GPU)
         level: 4
       - label: Git & CI/CD
         level: 4
-      - label: Model Optimization (ONNX Runtime, Quantization)
+      - label: Model Optimization
         level: 4
 
   - name: Research & Leadership
     items:
-      - label: Competitive Grant Writing (EU Horizon, CDTI)
+      - label: Competitive Grant Writing
         level: 5
       - label: Academic Writing & LaTeX
         level: 5
