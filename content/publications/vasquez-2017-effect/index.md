@@ -1,6 +1,5 @@
 ---
-title: Effect of acoustic conditions on algorithms to detect Parkinson's disease from
-  speech
+title: Effect of acoustic conditions on algorithms to detect Parkinson's disease from speech
 authors:
 - Juan Camilo Vásquez-Correa
 - Joan Serrà

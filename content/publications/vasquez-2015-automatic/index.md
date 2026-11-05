@@ -1,6 +1,5 @@
 ---
-title: Automatic detection of Parkinson's disease from continuous speech recorded
-  in non-controlled noise conditions
+title: Automatic detection of Parkinson's disease from continuous speech recorded in non-controlled noise conditions
 authors:
 - Juan Camilo Vásquez-Correa
 - Tomás Arias-Vergara

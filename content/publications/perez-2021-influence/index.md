@@ -1,6 +1,5 @@
 ---
-title: Influence of the Interviewer on the Automatic Assessment of Alzheimer's Disease
-  in the Context of the ADReSSo Challenge.
+title: Influence of the Interviewer on the Automatic Assessment of Alzheimer's Disease in the Context of the ADReSSo Challenge.
 authors:
 - Paula Andrea Pérez-Toro
 - Sebastian P Bayerl

@@ -1,6 +1,5 @@
 ---
-title: Multi-view representation learning via gcca for multimodal analysis of Parkinson's
-  disease
+title: Multi-view representation learning via gcca for multimodal analysis of Parkinson's disease
 authors:
 - Juan Camilo Vasquez-Correa
 - Juan Rafael Orozco-Arroyave

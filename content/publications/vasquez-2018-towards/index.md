@@ -1,6 +1,5 @@
 ---
-title: Towards an automatic evaluation of the dysarthria level of patients with Parkinson's
-  disease
+title: Towards an automatic evaluation of the dysarthria level of patients with Parkinson's disease
 authors:
 - Juan Camilo Vásquez-Correa
 - Juan R Orozco-Arroyave

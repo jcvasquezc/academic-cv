@@ -1,6 +1,5 @@
 ---
-title: Towards an automatic monitoring of the neurological state of Parkinson's patients
-  from speech
+title: Towards an automatic monitoring of the neurological state of Parkinson's patients from speech
 authors:
 - JR Orozco-Arroyave
 - JC Vásquez-Correa
