@@ -27,21 +27,7 @@ TAPAS was a Horizon 2020 Marie Skłodowska-Curie Innovative Training Network (MS
 2. **Automated Therapy:** Leveraging newly-emerging speech processing techniques to produce automated, accessible, and individually targeted speech therapy tools to improve recovery chances after traumatic events, such as stroke or oral surgery.
 3. **Assisted Living:** Redesigning current consumer speech technology to be robust against speech impairments, allowing individuals who rely on carers to live more independently using speech-driven assistive tools.
 
-### TAPAS Research Network Video
 
-<div class="not-prose my-6 aspect-video w-full max-w-3xl mx-auto overflow-hidden rounded-xl shadow-lg">
-  <iframe 
-    class="w-full h-full"
-    src="https://www.youtube-nocookie.com/embed/videoseries?list=PL_tO2yY_0N0QzG3p4OQjH6sAqzG3p4OQj" 
-    title="TAPAS Project Video Channel" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-  <p class="text-sm text-center mt-2">
-    <a href="https://www.youtube.com/@tapas-h2020-itn/videos" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline">View the TAPAS H2020 ITN YouTube Channel →</a>
-  </p>
-</div>
 
 ### Key Consortium Partners
 

@@ -43,4 +43,7 @@ hugoblox:
 links: 
    - type: source
      url: https://link.springer.com/chapter/10.1007/978-3-032-02548-7_9
+
+project:
+ - ANIMEX
 ---
