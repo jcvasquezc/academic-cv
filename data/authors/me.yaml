@@ -115,11 +115,11 @@ experience:
 skills:
   - name: Speech & Audio AI
     items:
-      - label: PyTorch & Speech Models (Whisper, WavLM)
+      - label: PyTorch & Speech Foundational Models
         level: 5
-      - label: NVIDIA NeMo & Hugging Face Transformers
+      - label: NVIDIA NeMo & Transformers
         level: 5
-      - label: Audio Feature Extraction (openSMILE, Praat)
+      - label: Audio Feature Extraction
         level: 5
       - label: Speech Toolkits (Kaldi)
         level: 4
@@ -132,7 +132,7 @@ skills:
         level: 5
       - label: Docker & Containerization
         level: 5
-      - label: Linux & HPC Cluster (Slurm, Multi-GPU)
+      - label: Linux & HPC Cluster (Slurm)
         level: 4
       - label: Git & CI/CD
         level: 4
