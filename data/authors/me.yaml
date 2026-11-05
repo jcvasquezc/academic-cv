@@ -113,9 +113,9 @@ experience:
       * Designed acoustic feature extraction and speech processing algorithms for noisy environments to capture paralinguistic and emotional traits.
 
 skills:
-  - name: Speech & Audio AI
+  - name: Speech | Audio | LLMs
     items:
-      - label: PyTorch & Speech Foundational Models
+      - label: PyTorch & Foundational Models
         level: 5
       - label: NVIDIA NeMo & Transformers
         level: 5
