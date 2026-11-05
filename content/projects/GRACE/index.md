@@ -62,12 +62,4 @@ GRACE brought together law enforcement agencies, universities, and research inst
 
 ### Related Publications
 
-{{< block "collection" "publications" >}}
-content:
-  page_type: publication
-  filters:
-    # This automatically filters publications that have `projects: ["grace"]`
-    projects: GRACE
-design:
-  view: article-grid
-{{< /block >}}
+{{< related-publications >}}

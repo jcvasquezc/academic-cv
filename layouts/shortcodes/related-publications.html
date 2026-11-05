@@ -1,0 +1,107 @@
+{{/* Universal Project Publications Shortcode */}}
+
+{{/* 1. Identify the current project identifier */}}
+{{ $project_slug := "" }}
+{{ with .Page.File }}
+  {{ $project_slug = lower (path.Base (path.Dir .Path)) }}
+{{ end }}
+{{ with .Page.Slug }}
+  {{ $project_slug = lower . }}
+{{ end }}
+{{ with .Get 0 }}
+  {{ $project_slug = lower . }}
+{{ end }}
+
+{{/* 2. Collect any explicitly listed publication IDs in the project front matter */}}
+{{ $explicit_pubs := slice }}
+{{ with .Page.Params.publications }}
+  {{ range . }}
+    {{ $explicit_pubs = $explicit_pubs | append (replace (lower .) "-" "") }}
+  {{ end }}
+{{ end }}
+
+{{/* 3. Query all publication pages */}}
+{{ $pub_pages := where site.RegularPages "Type" "in" (slice "publication" "publications") }}
+{{ if not (gt (len $pub_pages) 0) }}
+  {{ $pub_pages = where site.RegularPages "Section" "in" (slice "publication" "publications") }}
+{{ end }}
+
+{{/* 4. Find matching publications */}}
+{{ $matched := slice }}
+{{ range $pub_pages }}
+  {{ $pub := . }}
+  {{ $is_match := false }}
+
+  {{/* Check if this publication lists the current project in `projects: [...]` */}}
+  {{ with $pub.Params.projects }}
+    {{ range . }}
+      {{ if eq (lower .) $project_slug }}
+        {{ $is_match = true }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Check if this publication is listed under the project's `publications: [...]` */}}
+  {{ with $pub.File }}
+    {{ $pub_dir := replace (lower (path.Base (path.Dir .Path))) "-" "" }}
+    {{ if in $explicit_pubs $pub_dir }}
+      {{ $is_match = true }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $is_match }}
+    {{ $matched = $matched | append $pub }}
+  {{ end }}
+{{ end }}
+
+{{/* 5. Render matching publications */}}
+{{ if gt (len $matched) 0 }}
+  <div class="not-prose space-y-4 my-6">
+    {{ range (sort $matched "Date" "desc") }}
+      <div class="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm transition hover:shadow-md">
+        
+        <div class="text-xs font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400 mb-1">
+          {{ with .Params.publication.name }}
+            {{ . }}
+          {{ else with .Params.publication }}
+            {{ . }}
+          {{ else }}
+            Publication
+          {{ end }}
+          &bull; {{ .Date.Format "2006" }}
+        </div>
+
+        <h4 class="text-base font-bold text-neutral-900 dark:text-neutral-100 mb-1">
+          <a href="{{ .RelPermalink }}" class="hover:underline text-primary-700 dark:text-primary-300">
+            {{ .Title }}
+          </a>
+        </h4>
+
+        {{ with .Params.authors }}
+          <p class="text-xs text-neutral-600 dark:text-neutral-400 mb-3">
+            {{ delimit . ", " }}
+          </p>
+        {{ end }}
+
+        <div class="flex flex-wrap gap-2 text-xs">
+          <a href="{{ .RelPermalink }}" class="px-2.5 py-1 rounded bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-medium transition">
+            Details
+          </a>
+          {{ with .Params.url_pdf }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-medium transition">
+              PDF
+            </a>
+          {{ end }}
+          {{ with .Params.doi }}
+            <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-medium transition">
+              DOI
+            </a>
+          {{ end }}
+        </div>
+
+      </div>
+    {{ end }}
+  </div>
+{{ else }}
+  <p class="text-sm text-neutral-500 italic my-4">No publications currently linked to this project.</p>
+{{ end }}
