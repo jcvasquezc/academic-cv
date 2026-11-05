@@ -128,6 +128,7 @@ sections:
     id: projects
     content:
       title: Recent Projects
+      count: 6
       filters:
         folders:
           - projects

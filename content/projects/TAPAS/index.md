@@ -10,7 +10,6 @@ links:
 tags:
   - Pathological Speech Processing
   - Digital Biomarkers
-  - Time-series Modeling
 ---
 
 There is an increasing number of people across Europe with debilitating speech pathologies (e.g., due to stroke, Parkinson's disease, or ALS). These groups face communication problems that can lead to social exclusion, and they are now being further marginalized by a new wave of consumer speech technology that is rarely robust to atypical speech. 

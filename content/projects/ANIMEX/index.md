@@ -5,7 +5,7 @@ summary: "Development of AI technologies for the automated animation of expressi
 
 tags:
   - Facial Avatar Animation
-  - Speech Emotion Recognition
+  - Emotion Recognition
 
 publications:
   - vasquez-2025-emotion

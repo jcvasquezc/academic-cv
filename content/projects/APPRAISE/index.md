@@ -1,6 +1,6 @@
 ---
 title: "APPRAISE - Facilitating Public & Private Security Operators to Mitigate Terrorism Scenarios Against Soft Targets"
-date: 2023-10-26T00:00:00Z
+date: 2022-07-18T00:00:00Z
 summary: "Adapting scalable speech recognition and online threat intelligence tools to secure European public spaces and soft targets."
 
 links:
