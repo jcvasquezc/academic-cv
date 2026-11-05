@@ -22,7 +22,6 @@ sections:
   #   content:
   #     title: Skills & Hobbies
   #     username: me
-
   - block: resume-skills
     id: skills
     content:
@@ -31,6 +30,14 @@ sections:
     design:
       columns: '1'
       css_class: 'skills-3col max-w-6xl mx-auto px-4 clear-both'
+  - block: resume-awards
+    content:
+      title: Awards
+      username: me
+  - block: resume-languages
+    content:
+      title: Languages
+      username: me
   - block: markdown
     content:
       text: |-
@@ -47,12 +54,4 @@ sections:
             }
           }
         </style>
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
 ---
