@@ -59,3 +59,15 @@ GRACE brought together law enforcement agencies, universities, and research inst
 
 > **Funding Acknowledgment:** 
 > This project received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement **No 883341**.
+
+### Related Publications
+
+{{< block "collection" "publications" >}}
+content:
+  page_type: publication
+  filters:
+    # This automatically filters publications that have `projects: ["grace"]`
+    projects: GRACE
+design:
+  view: article-grid
+{{< /block >}}
