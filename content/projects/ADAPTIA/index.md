@@ -14,6 +14,7 @@ tags:
 
 publications:
   - alvarez-2025-adapt
+  - akcharov-2025-multilingual
 ---
 
 The **ADAPT-IA** project addressed the research and development of Adaptive Artificial Intelligence paradigms, combining Active Learning, Transfer Learning, and Reinforcement Learning with Machine Learning Operations (MLOps) practices applied to Language Technologies (LT) for Basque across strategic industrial sectors. Its goal was to overcome the severe scarcity of annotated data in regional and technical domains, enabling continuous adaptation and deployment of neural speech and language models while keeping human expertise at the center of the learning loop.
@@ -53,7 +54,7 @@ Beyond the automotive track, ADAPT-IA demonstrated the versatility of Adaptive A
 
 The project brought together applied research institutions, academic groups, and industrial cluster bodies:
 
-* **Fundación Vicomtech** (Project Coordinator – Speech and Natural Language Technologies)
+* **Vicomtech Foundation** (Project Coordinator – Speech and Natural Language Technologies)
 * **University of the Basque Country (UPV/EHU)** (SPIN Research Group – Dialogue Systems and Signal Processing)
 * **UZEI** (Basque Center for Terminology and Lexicography - Linguistic Resources and Standardization)
 * **Automotive Intelligence Center (AIC)** (Automotive Sector Use Case and Driving Simulator)
@@ -67,4 +68,4 @@ The project brought together applied research institutions, academic groups, and
 ---
 
 > **Funding Acknowledgment:**  
-> This work was partially supported by the Department of Economic Development and Competitiveness of the Basque Government (Spri Group) through funding for the ADAPT-IA project under grant agreement **No. KK-2023/00035** (ELKARTEK Collaborative Research Program).
+> This project received funding from the Department of Economic Development, Sustainability and Environment of the Basque Government through the ELKARTEK Collaborative Research Program, under grant agreement **No. KK-2023/00035**.
