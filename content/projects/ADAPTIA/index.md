@@ -27,9 +27,9 @@ ADAPT-IA targeted critical scientific and operational bottlenecks at the interse
 
 * **Adaptive Speech Recognition for In-Cabin Environments:** Developing neural ASR models capable of adapting to restricted-domain automotive vocabularies, speaker variability, and cockpit background noise with minimal manually transcribed training data.
 * **Active Learning and Data Curation:** Implementing active data selection strategies to identify the most informative speech samples for annotation, drastically reducing the cost and effort of continuous model retraining.
-* **Interaction in Driving Simulators:** Deploying speech technologies in real-time simulation environments provided by AIC, evaluating vehicle-occupant communication and voice-activated controls without compromising driver focus or safety[cite: 114, 120, 137].
-* **Low-Resource Language Adaptation (Basque):** Overcoming the lack of specialized industrial and automotive speech corpora in Basque through transfer learning and domain-specific terminology standardization[cite: 68, 69, 70, 80, 85].
-* **Industrial MLOps Workflows:** Combining adaptive learning loops with automated MLOps pipelines to manage continuous data curation, model training, evaluation, and deployment in production[cite: 68, 69, 70, 84].
+* **Interaction in Driving Simulators:** Deploying speech technologies in real-time simulation environments provided by AIC, evaluating vehicle-occupant communication and voice-activated controls without compromising driver focus or safety.
+* **Low-Resource Language Adaptation (Basque):** Overcoming the lack of specialized industrial and automotive speech corpora in Basque through transfer learning and domain-specific terminology standardization.
+* **Industrial MLOps Workflows:** Combining adaptive learning loops with automated MLOps pipelines to manage continuous data curation, model training, evaluation, and deployment in production.
 
 ### Automotive Use Case & Simulator Demonstrator
 

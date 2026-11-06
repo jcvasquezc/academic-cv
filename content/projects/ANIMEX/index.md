@@ -15,6 +15,19 @@ The **ANIMEX** project focused on the research and development of artificial int
 
 As **Principal Investigator for Vicomtech and technical co-director of the project**, I led the design and development of facial animation engines targeting both pre-rendered cinematics (*offline* for animation studios) and low-latency environments (*online* for live shows and interactive platforms). In addition, I developed acoustic emotion recognition technologies integrated into the joint prediction of *blendshapes* and facial landmarks.
 
+### Project Video
+
+<div class="not-prose my-6 aspect-video w-full max-w-3xl mx-auto overflow-hidden rounded-xl shadow-lg">
+  <iframe 
+    class="w-full h-full"
+    src="https://www.youtube-nocookie.com/embed/SmWjGMMpGM8" 
+    title="GRACE Project Video" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 ### Key Objectives and Technological Challenges
 
 ANIMEX addressed key limitations in digital animation across four scientific-technological pillars:

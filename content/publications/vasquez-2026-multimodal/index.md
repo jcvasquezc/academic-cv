@@ -49,6 +49,9 @@ hugoblox:
   ids:
     doi: https://doi.org/10.1007/978-3-032-37249-9_45
 
+project:
+  - IKASPROD
+
 links: 
 - type: source
   url: "https://link.springer.com/chapter/10.1007/978-3-032-37249-9_45"
