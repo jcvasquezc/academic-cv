@@ -20,11 +20,12 @@ publication:
   name: '*Applied Sciences*'
 
 tags:
-- Self Sovereign Identity
-- Spoofing-Aware Speaker Verification
+- Self-Sovereign Identity (SSI)
 - Digital Wallet
 - Digital Security
-- Biometrics
+- Voice Biometrics
+- Speaker Verification
+- Homomorphic Encryption
 
 peer_reviewed: true
 open_access: true
@@ -48,6 +49,9 @@ image:
   caption: 'Vicomtech SIBERIA'
   focal_point: ""
   preview_only: false
+
+project:
+- SIBERIA
 
 
 
