@@ -1,6 +1,7 @@
 ---
 title: Publications
 cms_exclude: true
+type: publication    # <--- Forces Hugo to use the publication filter template
 
 # View format: citation (academic APA style), compact, or card
 view: citation

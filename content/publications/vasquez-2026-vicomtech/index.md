@@ -21,7 +21,8 @@ peer_reviewed: true
 open_access: false
 
 publication:
-  name: '*International Conference on Acoustic Speech and Signal Processing (ICASSP) 2026*'
+  name: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  short_name: "ICASSP"
 
 
 funding:

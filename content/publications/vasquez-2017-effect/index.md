@@ -11,7 +11,8 @@ publishDate: '2026-08-10T10:22:36.677474Z'
 publication_types:
 - paper-conference
 publication:
-  name: "*2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
+  name: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  short_name: "ICASSP"
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing
