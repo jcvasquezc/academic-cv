@@ -1,0 +1,249 @@
+{{/*
+  Filterable publications list (local override of the HugoBlox section list).
+  Renders every publication (no pagination) grouped by year, with client-side
+  filters for type, year, project and topic plus a free-text search.
+  Filter state is mirrored in the URL, e.g. /publications/?project=grace&type=article-journal
+*/}}
+{{ define "main" }}
+
+{{/* ---------- Publication type labels ---------- */}}
+{{ $typeLabels := dict
+  "article-journal" "Journal article"
+  "paper-conference" "Conference paper"
+  "chapter" "Book chapter"
+  "book" "Book"
+  "thesis" "Thesis"
+  "report" "Report"
+  "manuscript" "Manuscript"
+  "article" "Preprint"
+}}
+
+{{/* ---------- Projects: slug -> short label ---------- */}}
+{{ $projects := where site.RegularPages "Section" "projects" }}
+{{ $projectLabels := dict }}
+{{ range $projects }}
+  {{ $slug := lower .File.ContentBaseName }}
+  {{ $short := index (split .Title ":") 0 }}
+  {{ $short = strings.TrimSpace (index (split $short " - ") 0) }}
+  {{ $projectLabels = merge $projectLabels (dict $slug $short) }}
+{{ end }}
+
+{{/* ---------- Collect publications and their facets ---------- */}}
+{{ $pubs := .Pages.ByDate.Reverse }}
+{{ $items := slice }}
+{{ $typeCounts := dict }}
+{{ $projectCounts := dict }}
+{{ $tagCounts := dict }}
+{{ $tagLabels := dict }}
+{{ $years := slice }}
+
+{{ range $pubs }}
+  {{ $pub := . }}
+  {{ $pubKey := replace (lower $pub.File.ContentBaseName) "-" "" }}
+
+  {{/* Type */}}
+  {{ $type := "other" }}
+  {{ with $pub.Params.publication_types }}{{ $type = index . 0 }}{{ end }}
+  {{ $typeCounts = merge $typeCounts (dict $type (add (index $typeCounts $type | default 0) 1)) }}
+
+  {{/* Year */}}
+  {{ $year := $pub.Date.Format "2006" }}
+  {{ if not (in $years $year) }}{{ $years = $years | append $year }}{{ end }}
+
+  {{/* Projects: listed on the publication, or the publication listed on the project */}}
+  {{ $pubProjects := slice }}
+  {{ range $pub.Params.projects }}
+    {{ $p := lower . }}
+    {{ if and (index $projectLabels $p) (not (in $pubProjects $p)) }}{{ $pubProjects = $pubProjects | append $p }}{{ end }}
+  {{ end }}
+  {{ range $projects }}
+    {{ $p := lower .File.ContentBaseName }}
+    {{ range .Params.publications }}
+      {{ if and (eq (replace (lower .) "-" "") $pubKey) (not (in $pubProjects $p)) }}
+        {{ $pubProjects = $pubProjects | append $p }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ range $pubProjects }}
+    {{ $projectCounts = merge $projectCounts (dict . (add (index $projectCounts . | default 0) 1)) }}
+  {{ end }}
+
+  {{/* Tags */}}
+  {{ $pubTags := slice }}
+  {{ range $pub.Params.tags }}
+    {{ $t := urlize . }}
+    {{ if not (in $pubTags $t) }}
+      {{ $pubTags = $pubTags | append $t }}
+      {{ $tagCounts = merge $tagCounts (dict $t (add (index $tagCounts $t | default 0) 1)) }}
+      {{ if not (index $tagLabels $t) }}{{ $tagLabels = merge $tagLabels (dict $t .) }}{{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{/* Search text */}}
+  {{ $search := slice $pub.Title }}
+  {{ with $pub.Params.authors }}{{ $search = $search | append (delimit . " ") }}{{ end }}
+  {{ with $pub.Params.publication }}{{ if reflect.IsMap . }}{{ $search = $search | append (.name | default "") (.short_name | default "") }}{{ else }}{{ $search = $search | append . }}{{ end }}{{ end }}
+  {{ with $pub.Params.tags }}{{ $search = $search | append (delimit . " ") }}{{ end }}
+  {{ range $pubProjects }}{{ $search = $search | append (index $projectLabels .) }}{{ end }}
+
+  {{ $items = $items | append (dict
+    "page" $pub
+    "type" $type
+    "year" $year
+    "projects" $pubProjects
+    "tags" $pubTags
+    "search" (lower (delimit $search " "))
+  ) }}
+{{ end }}
+
+{{/* Alpine is only needed when author notes are used */}}
+{{ range $pubs }}
+  {{ if isset .Params "author_notes" }}{{ $.Store.Set "has_alpine" true }}{{ break }}{{ end }}
+{{ end }}
+
+{{ $config := dict "columns" 1 "len" (len $pubs) "fill_image" false "show_date" true "show_read_time" false "show_read_more" false }}
+{{ $selectClass := "w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 focus:border-primary-500 focus:outline-none focus:ring-1 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-100" }}
+
+<div class="max-w-prose mx-auto flex justify-center">
+  <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+    <h1 class="lg:text-6xl">{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+</div>
+
+<div class="flex flex-col items-center px-4">
+  <div class="mt-10 container max-w-3xl w-full">
+
+    {{/* ---------- Filter bar ---------- */}}
+    <form id="pub-filters" class="not-prose rounded-xl border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800/50" role="search" aria-label="Filter publications" onsubmit="return false">
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <label class="block">
+          <span class="mb-1 block text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-300">Type</span>
+          <select name="type" class="{{ $selectClass }}">
+            <option value="">All types</option>
+            {{ range $t, $n := $typeCounts }}
+              <option value="{{ $t }}">{{ index $typeLabels $t | default (humanize $t) }} ({{ $n }})</option>
+            {{ end }}
+          </select>
+        </label>
+        <label class="block">
+          <span class="mb-1 block text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-300">Year</span>
+          <select name="year" class="{{ $selectClass }}">
+            <option value="">All years</option>
+            {{ range sort $years "value" "desc" }}<option value="{{ . }}">{{ . }}</option>{{ end }}
+          </select>
+        </label>
+        <label class="block">
+          <span class="mb-1 block text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-300">Project</span>
+          <select name="project" class="{{ $selectClass }}">
+            <option value="">All projects</option>
+            {{ range $p, $n := $projectCounts }}
+              <option value="{{ $p }}">{{ index $projectLabels $p }} ({{ $n }})</option>
+            {{ end }}
+          </select>
+        </label>
+        <label class="block">
+          <span class="mb-1 block text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-300">Topic</span>
+          <select name="tag" class="{{ $selectClass }}">
+            <option value="">All topics</option>
+            {{ range $t, $n := $tagCounts }}
+              <option value="{{ $t }}">{{ index $tagLabels $t }} ({{ $n }})</option>
+            {{ end }}
+          </select>
+        </label>
+      </div>
+      <div class="mt-3 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <input type="search" name="q" placeholder="Search title, author or venue…" aria-label="Search publications" class="{{ $selectClass }} sm:flex-1">
+        <div class="flex items-center justify-between gap-3 sm:justify-end">
+          <span id="pub-count" class="whitespace-nowrap text-sm text-gray-600 dark:text-gray-300" aria-live="polite">{{ len $items }} publications</span>
+          <button type="reset" id="pub-reset" class="whitespace-nowrap rounded-md border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700 hover:border-primary-500 hover:text-primary-600 dark:border-gray-600 dark:text-gray-200">Reset</button>
+        </div>
+      </div>
+    </form>
+
+    {{/* ---------- Results grouped by year ---------- */}}
+    <div id="pub-results" class="mt-8">
+      {{ range $year := sort $years "value" "desc" }}
+        <section class="pub-year-group mb-10" data-year="{{ $year }}">
+          <h2 class="not-prose mb-4 border-b border-gray-200 pb-1 text-2xl font-bold text-gray-900 dark:border-gray-700 dark:text-white">{{ $year }}</h2>
+          <div class="flex flex-col space-y-3">
+            {{ range $i, $it := where $items "year" $year }}
+              <div class="pub-filter-item"
+                   data-type="{{ $it.type }}"
+                   data-year="{{ $it.year }}"
+                   data-projects="{{ delimit $it.projects " " }}"
+                   data-tags="{{ delimit $it.tags " " }}"
+                   data-search="{{ $it.search }}">
+                {{ partial "functions/render_view" (dict "page" $it.page "item" $it.page "view" "citation" "index" $i "config" $config) }}
+              </div>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+      <p id="pub-empty" class="hidden text-center text-gray-500 dark:text-gray-400">No publications match these filters.</p>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var form = document.getElementById('pub-filters');
+  if (!form) return;
+  var items = Array.prototype.slice.call(document.querySelectorAll('.pub-filter-item'));
+  var groups = Array.prototype.slice.call(document.querySelectorAll('.pub-year-group'));
+  var countEl = document.getElementById('pub-count');
+  var emptyEl = document.getElementById('pub-empty');
+  var keys = ['type', 'year', 'project', 'tag', 'q'];
+  var total = items.length;
+
+  function has(list, value) { return (' ' + list + ' ').indexOf(' ' + value + ' ') !== -1; }
+
+  function state() {
+    var s = {};
+    keys.forEach(function (k) { s[k] = (form.elements[k].value || '').trim(); });
+    return s;
+  }
+
+  function apply() {
+    var s = state();
+    var terms = s.q.toLowerCase().split(/\s+/).filter(Boolean);
+    var shown = 0;
+    items.forEach(function (el) {
+      var d = el.dataset;
+      var ok = (!s.type || d.type === s.type) &&
+               (!s.year || d.year === s.year) &&
+               (!s.project || has(d.projects, s.project)) &&
+               (!s.tag || has(d.tags, s.tag)) &&
+               terms.every(function (t) { return d.search.indexOf(t) !== -1; });
+      el.hidden = !ok;
+      if (ok) shown++;
+    });
+    groups.forEach(function (g) { g.hidden = !g.querySelector('.pub-filter-item:not([hidden])'); });
+    countEl.textContent = shown === total ? total + ' publications' : shown + ' of ' + total + ' publications';
+    emptyEl.classList.toggle('hidden', shown !== 0);
+
+    var params = new URLSearchParams();
+    keys.forEach(function (k) { if (s[k]) params.set(k, s[k]); });
+    var qs = params.toString();
+    history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+  }
+
+  // Restore filters from the URL (ignores values that aren't valid options).
+  var initial = new URLSearchParams(location.search);
+  keys.forEach(function (k) {
+    var v = initial.get(k);
+    if (!v) return;
+    var field = form.elements[k];
+    if (field.tagName === 'SELECT' && !field.querySelector('option[value="' + CSS.escape(v) + '"]')) return;
+    field.value = v;
+  });
+
+  form.addEventListener('change', apply);
+  form.addEventListener('input', apply);
+  form.addEventListener('reset', function () { setTimeout(apply, 0); });
+  apply();
+})();
+</script>
+
+{{ end }}
