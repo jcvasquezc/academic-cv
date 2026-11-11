@@ -3,7 +3,7 @@ title: Automated cross-language intelligibility analysis of Parkinson’s diseas
   using speech recognition technologies
 authors:
 - Nina Hosseini-Kivanani
-- Juan Camilo Vásquez-Correa
+- me
 - Manfred Stede
 - Elmar Nöth
 date: '2019-01-01'
@@ -11,8 +11,11 @@ publishDate: '2026-08-10T10:22:36.515650Z'
 publication_types:
 - paper-conference
 publication:
-  name: "*Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop*"
+  name: "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop"
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing
+hugoblox:
+  ids:
+    doi: 10.18653/v1/p19-2010
 ---

@@ -2,7 +2,7 @@
 title: Wavelet-based time-frequency representations for automatic recognition of emotions
   from speech
 authors:
-- Juan Camilo Vasquez-Correa
+- me
 - Tomas Arias-Vergara
 - Juan Rafael Orozco-Arroyave
 - Jesús Francisco Vargas-Bonilla
@@ -12,7 +12,7 @@ publishDate: '2026-08-10T10:22:36.697370Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Speech Communication; 12. ITG Symposium*'
+  name: 'Speech Communication; 12. ITG Symposium'
 
 tags:
 - Emotion Recognition

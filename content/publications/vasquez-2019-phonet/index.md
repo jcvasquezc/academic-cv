@@ -1,17 +1,17 @@
 ---
 title: 'Phonet: A Tool Based on Gated Recurrent Neural Networks to Extract Phonological
-  Posteriors from Speech.'
+  Posteriors from Speech'
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Philipp Klumpp
 - Juan Rafael Orozco-Arroyave
 - Elmar Nöth
-date: '2019-01-01'
+date: '2019-09-15'
 publishDate: '2026-08-10T10:22:36.535971Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Interspeech*'
+  name: 'Interspeech'
 
 tags:
 - Deep Learning
@@ -19,4 +19,7 @@ tags:
 
 projects:
  - TAPAS
+hugoblox:
+  ids:
+    doi: 10.21437/interspeech.2019-1405
 ---

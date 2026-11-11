@@ -21,7 +21,7 @@ peer_reviewed: true
 open_access: false
 
 publication:
-  name: '*International Conference on Text, Speech, and Dialogue (TSD) 2026*'
+  name: 'International Conference on Text, Speech, and Dialogue (TSD) 2026'
 
 
 funding:
@@ -45,7 +45,7 @@ featured: true
 
 hugoblox:
   ids:
-    doi: https://doi.org/10.1007/978-3-032-37249-9_23
+    doi: 10.1007/978-3-032-37249-9_23
 
 links: 
 - type: source

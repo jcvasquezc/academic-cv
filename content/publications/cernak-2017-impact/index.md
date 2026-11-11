@@ -12,12 +12,15 @@ authors:
 - Julius Hannink
 - Phani Sankar Nidadavolu
 - ' others'
-date: '2017-01-01'
+date: '2017-03-01'
 publishDate: '2026-08-10T10:22:36.670511Z'
 publication_types:
 - paper-conference
 publication:
-  name: "*2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
+  name: "2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
 tags:
 - Pathological Speech Processing
+hugoblox:
+  ids:
+    doi: 10.1109/icassp.2017.7953126
 ---

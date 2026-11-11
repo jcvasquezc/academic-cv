@@ -40,7 +40,7 @@ Within the project's automotive track, AIC established an agile, controlled driv
 Beyond the automotive track, ADAPT-IA demonstrated the versatility of Adaptive AI across four RIS3 sectors through six dedicated prototypes:
 
 | Use Case | Sector | Description |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **UC1: Speech-Based Driver Assistant** | Automotive | Multilingual (EUS/ENG) conversational voice assistant integrated into the AIC vehicle simulator. |
 | **UC2: Technical Norm Assistant** | Machine Tool | Retrieval-Augmented Generation system for querying UNE machinery standards with INVEMA. |
 | **UC3: Software Documentation Assistant** | Energy | Documentation exploration chatbot with the ACE cluster. |

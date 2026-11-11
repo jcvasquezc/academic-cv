@@ -21,7 +21,7 @@ As **Principal Investigator for Vicomtech and technical co-director of the proje
   <iframe 
     class="w-full h-full"
     src="https://www.youtube-nocookie.com/embed/SmWjGMMpGM8" 
-    title="GRACE Project Video" 
+    title="ANIMEX Project Video" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen>
@@ -32,7 +32,7 @@ As **Principal Investigator for Vicomtech and technical co-director of the proje
 
 ANIMEX addressed key limitations in digital animation across four scientific-technological pillars:
 
-1. **Automated Speech-Driven Facial Animation:** Developing deep learning models capable of jointly predicting facial movemnts from speech, capturing affective and paralinguistic nuances.
+1. **Automated Speech-Driven Facial Animation:** Developing deep learning models capable of jointly predicting facial movements from speech, capturing affective and paralinguistic nuances.
 2. **Real-Time Generation and Green AI:** Optimizing and compressing neural architectures to achieve minimal latency and low resource consumption, facilitating seamless real-time interactions in live shows.
 3. **Adaptation to Under-Resourced Languages:** Recording and compiling a synchronized multimodal corpus with professional actors specifically designed for Spanish and Basque, overcoming the scarcity of regional training data.
 4. **Non-Intrusive Multimodal Fusion:** Combining the speech-driven facial engine with kinematic data from inertial MoCap suits (such as Rokoko or Technaid) to transfer body pose and head motion without cumbersome facial helmets that restrict acting performance.

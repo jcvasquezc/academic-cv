@@ -1,11 +1,11 @@
 ---
-title: 'ADAPT-IA: Towards an Adaptive AI in Language Technologies applied to RIS3 Industrial sectors.'
+title: 'ADAPT-IA: Towards an Adaptive AI in Language Technologies applied to RIS3 Industrial sectors'
 authors:
 - Aitor Álvarez
 - Arantza del Pozo
 - Montse Cuadros
 - Thierry Etchegoyhen
-- Juan Camilo Vásquez-Correa
+- me
 - Ander González-Docasal
 - Santiago Andres Moreno-Acevedo
 - Harritxu Gete
@@ -17,7 +17,7 @@ publishDate: '2026-08-10T10:22:36.331948Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*SEPLN-PD*'
+  name: 'SEPLN-PD'
 tags:
 - Automatic Speech Recognition
 - Natural Language Processing

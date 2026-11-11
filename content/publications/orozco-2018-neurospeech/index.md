@@ -2,7 +2,7 @@
 title: NeuroSpeech
 authors:
 - Juan Rafael Orozco-Arroyave
-- Juan Camilo Vásquez-Correa
+- me
 - Jesús Francisco Vargas-Bonilla
 - Raman Arora
 - Najim Dehak
@@ -12,15 +12,18 @@ authors:
 - Maria Yancheva
 - H Chinaei
 - ' others'
-date: '2018-01-01'
+date: '2018-07-01'
 publishDate: '2026-08-10T10:22:36.249790Z'
 publication_types:
 - article-journal
 publication:
-  name: '*SoftwareX*'
+  name: 'SoftwareX'
 
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing
 - Biomedical Signal Processing
+hugoblox:
+  ids:
+    doi: 10.1016/j.softx.2017.08.004
 ---

@@ -3,15 +3,18 @@ title: Comparison of Named Entity Recognition Methods on Real-World and Highly I
   Business Document Datasets
 authors:
 - S.A. Moreno-Acevedo
-- J.C. Vásquez-Correa
+- me
 - J.R Orozco-Arroyave
 date: '2022-01-01'
 publishDate: '2026-08-10T10:22:36.400846Z'
 publication_types:
 - paper-conference
 publication:
-  name: "*Applied Computer Sciences in Engineering: 9th Workshop on Engineering Applications, WEA 2022, Bogotá, Colombia, November 30--December 2, 2022, Proceedings*"
+  name: "Applied Computer Sciences in Engineering: 9th Workshop on Engineering Applications, WEA 2022, Bogotá, Colombia, November 30--December 2, 2022, Proceedings"
 tags:
 - Natural Language Processing
 - Named Entity Recognition
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-031-20611-5_4
 ---

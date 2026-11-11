@@ -2,7 +2,7 @@
 title: Real-time speech-driven avatar animation by predicting facial landmarks and
   deformation blendshapes
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Santiago Moreno-Acevedo
 - Ander Gonzalez-Docasal
 - Aritz Lasarguren
@@ -14,7 +14,7 @@ publishDate: '2026-08-10T10:22:36.367074Z'
 publication_types:
 - paper-conference
 publication:
-  name: "*Proceedings of the 7th International Conference on Natural Language and Speech Processing (ICNLSP 2024)*"
+  name: "Proceedings of the 7th International Conference on Natural Language and Speech Processing (ICNLSP 2024)"
 tags:
   - Facial avatar animation
   - Talking head generation

@@ -5,7 +5,7 @@ authors:
 - Juan M Martı́n-Doñas
 - Asier López Zorrilla
 - Mikel deVelasco
-- Juan Camilo Vásquez-Correa
+- me
 - Aitor Álvarez
 - Maria Inés Torres
 - Paz Delgado
@@ -17,7 +17,7 @@ publishDate: '2026-08-10T10:22:36.360030Z'
 publication_types:
 - paper-conference
 publication:
-  name: "*Proceedings of the 7th International Conference on Natural Language and Speech Processing (ICNLSP 2024)*"
+  name: "Proceedings of the 7th International Conference on Natural Language and Speech Processing (ICNLSP 2024)"
 tags:
 - Emotion Recognition
 ---

@@ -2,7 +2,7 @@
 title: Emotional state modeling for the assessment of depression in Parkinson’s disease
 authors:
 - Paula Andrea Pérez-Toro
-- Juan Camilo Vasquez-Correa
+- me
 - Tomás Arias-Vergara
 - Philipp Klumpp
 - Maria Schuster
@@ -13,11 +13,14 @@ publishDate: '2026-08-10T10:22:36.441901Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*International Conference on Text, Speech, and Dialogue*'
+  name: 'International Conference on Text, Speech, and Dialogue'
 
 tags:
 - Parkinson's Disease
 - Emotion Recognition
 - Affective Computing
 - Pathological Speech Processing
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-030-83527-9_39
 ---

@@ -3,7 +3,7 @@ title: A Multilingual Speech-Based Driver Assistant for Basque and English
 authors:
 - Antonio Aparicio Akcharov
 - Asier López Zorrilla
-- Juan Camilo Vasquez-Correa
+- me
 - Oscar Montserrat
 - Jose Mar\á Echevarrı́a
 - Begoña Arrate
@@ -18,7 +18,7 @@ abstract: This demo paper presents a prototype of a multilingual, speech-based d
 publication_types:
 - paper-conference
 publication:
-  name: "*Proceedings of the 15th International Workshop on Spoken Dialogue Systems Technology*"
+  name: "Proceedings of the 15th International Workshop on Spoken Dialogue Systems Technology"
 tags:
 - Automatic Speech Recognition
 - Natural Language Processing

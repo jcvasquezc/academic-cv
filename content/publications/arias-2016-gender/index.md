@@ -3,7 +3,7 @@ title: Gender--dependent GMM--UBM for tracking Parkinson’s disease progression
   speech
 authors:
 - T Arias-Vergara
-- JC Vasquez-Correa
+- me
 - JR Orozco-Arroyave
 - JF Vargas-Bonilla
 - T Haderlein

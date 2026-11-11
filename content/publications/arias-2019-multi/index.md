@@ -3,7 +3,7 @@ title: Multi-channel convolutional neural networks for automatic detection of sp
   deficits in cochlear implant users
 authors:
 - Tomas Arias-Vergara
-- Juan Camilo Vasquez-Correa
+- me
 - Sandra Gollwitzer
 - Juan Rafael Orozco-Arroyave
 - Maria Schuster
@@ -13,9 +13,12 @@ publishDate: '2026-08-10T10:22:36.556259Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Iberoamerican congress on pattern recognition*'
+  name: 'Iberoamerican congress on pattern recognition'
 
 tags:
 - Cochlear Implants
 - Pathological Speech Processing
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-030-33904-3_64
 ---

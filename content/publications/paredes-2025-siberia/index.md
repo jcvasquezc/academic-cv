@@ -5,7 +5,7 @@ authors:
 - Daniel Paredes-Garcı́a
 - José Álvaro Fernández-Carrasco
 - Jon Ander Medina López
-- Juan Camilo Vasquez-Correa
+- me
 - Imanol Jericó Yoldi
 - Santiago Andrés Moreno-Acevedo
 - Ander González-Docasal
@@ -17,7 +17,7 @@ publishDate: '2026-08-10T10:22:36.115025Z'
 publication_types:
 - article-journal
 publication:
-  name: '*Applied Sciences*'
+  name: 'Applied Sciences'
 
 tags:
 - Self-Sovereign Identity (SSI)

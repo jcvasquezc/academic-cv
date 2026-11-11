@@ -37,6 +37,8 @@ Beyond voice biometrics, the SIBERIA platform integrates two complementary secur
   </iframe>
 </div>
 
+### Related Publications
+
 {{< related-publications >}}
 
 ---

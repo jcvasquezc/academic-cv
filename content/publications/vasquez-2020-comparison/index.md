@@ -2,11 +2,11 @@
 title: Comparison of user models based on GMM-UBM and i-vectors for speech, handwriting,
   and gait assessment of Parkinson’s disease patients
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Tobias Bocklet
 - Juan Rafael Orozco-Arroyave
 - Elmar Nöth
-date: '2020-01-01'
+date: '2020-05-01'
 publishDate: '2026-08-10T10:22:36.495764Z'
 publication_types:
 - paper-conference
@@ -22,4 +22,7 @@ tags:
 
 projects:
  - TAPAS
+hugoblox:
+  ids:
+    doi: 10.1109/icassp40776.2020.9054348
 ---

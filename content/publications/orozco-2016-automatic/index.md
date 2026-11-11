@@ -4,17 +4,20 @@ title: Automatic detection of hypernasal speech of children with cleft lip and p
 authors:
 - Juan Rafael Orozco-Arroyave
 - Jesús Francisco Vargas-Bonilla
-- Juan Camilo Vásquez-Correa
+- me
 - Cesar German Castellanos-Domı́nguez
 - Elmar Nöth
-date: '2016-01-01'
+date: '2016-09-01'
 publishDate: '2026-08-10T10:22:36.297044Z'
 publication_types:
 - article-journal
 publication:
-  name: '*Revista Facultad de Ingenierı́a Universidad de Antioquia*'
+  name: 'Revista Facultad de Ingenierı́a Universidad de Antioquia'
 
 tags:
 - Cleft Lip & Palate
 - Pathological Speech Processing
+hugoblox:
+  ids:
+    doi: 10.17533/udea.redin.n80a12
 ---

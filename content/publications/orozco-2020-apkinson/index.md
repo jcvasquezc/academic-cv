@@ -3,7 +3,7 @@ title: 'Apkinson: the smartphone application for telemonitoring Parkinson’s pa
   through speech, gait and hands movement'
 authors:
 - Juan Rafael Orozco-Arroyave
-- Juan Camilo Vásquez-Correa
+- me
 - Philipp Klumpp
 - Paula Andrea Pérez-Toro
 - Daniel Escobar-Grisales
@@ -13,15 +13,18 @@ authors:
 - Helber Andrés Carvajal-Castaño
 - Sebastian Bayerl
 - ' others'
-date: '2020-01-01'
+date: '2020-06-01'
 publishDate: '2026-08-10T10:22:36.203203Z'
 publication_types:
 - article-journal
 publication:
-  name: '*Neurodegenerative Disease Management*'
+  name: 'Neurodegenerative Disease Management'
 
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing
 - Biomedical Signal Processing
+hugoblox:
+  ids:
+    doi: 10.2217/nmt-2019-0037
 ---

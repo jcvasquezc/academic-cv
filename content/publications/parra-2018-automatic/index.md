@@ -4,7 +4,7 @@ title: Automatic intelligibility assessment of Parkinson’s disease with diadoc
 authors:
 - L Felipe Parra-Gallego
 - Tomás Arias-Vergara
-- Juan Camilo Vásquez-Correa
+- me
 - Nicanor Garcia-Ospina
 - Juan Rafael Orozco-Arroyave
 - Elmar Nöth
@@ -13,10 +13,13 @@ publishDate: '2026-08-10T10:22:36.616102Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Workshop on engineering applications*'
+  name: 'Workshop on engineering applications'
 
 tags:
 - Parkinson's Disease
 - Pathological Speech Processing
 - Biomedical Signal Processing
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-030-00353-1_20
 ---

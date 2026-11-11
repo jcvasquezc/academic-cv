@@ -2,7 +2,7 @@
 title: Articulation and empirical mode decomposition features in diadochokinetic exercises
   for the speech assessment of Parkinson’s disease patients
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Cristian D Rios-Urrego
 - Alice Rueda
 - Juan Rafael Orozco-Arroyave
@@ -13,7 +13,7 @@ publishDate: '2026-08-10T10:22:36.563013Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Iberoamerican Congress on Pattern Recognition*'
+  name: 'Iberoamerican Congress on Pattern Recognition'
 
 
 tags:
@@ -22,4 +22,7 @@ tags:
 
 projects:
  - TAPAS
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-030-33904-3_65
 ---

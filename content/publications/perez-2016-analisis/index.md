@@ -3,7 +3,7 @@ title: Análisis motriz en las extremidades inferiores para el monitoreo del est
   neurológico de pacientes con enfermedad de Parkinson
 authors:
 - Paula Andrea Pérez Toro
-- Juan Camilo Vasquez Correa
+- me
 - Juan Rafael Orozco Arroyave
 - Julius Hannick
 - Elmar Nöth

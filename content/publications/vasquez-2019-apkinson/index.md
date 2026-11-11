@@ -2,7 +2,7 @@
 title: 'Apkinson: A mobile solution for multimodal assessment of patients with Parkinson’s
   disease'
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Tomás Arias-Vergara
 - Philipp Klumpp
 - M Strauss
@@ -18,7 +18,7 @@ publishDate: '2026-08-10T10:22:36.549437Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Proc. Interspeech 2019*'
+  name: 'Proc. Interspeech 2019'
 
 tags:
 - Parkinson's Disease

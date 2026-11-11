@@ -2,18 +2,18 @@
 title: The vicomtech speech transcription systems for the Albayzı́n 2024 Bilingual
   Basque-Spanish speech to text (BBS-S2T) challenge
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Aitor Álvarez
 - Haritz Arzelus
 - Santiago Andrés Moreno Acevedo
 - Ander González-Docasal
 - Juan Manuel Martı́n-Doñas
-date: '2024-01-01'
+date: '2024-11-11'
 publishDate: '2026-08-10T10:22:36.373882Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Proc. IberSPEECH 2024*'
+  name: 'Proc. IberSPEECH 2024'
 
 tags:
 - Automatic Speech Recognition
@@ -23,4 +23,7 @@ awards:
     level: winner
     date: "2024"
     note: "Best system for bilingual Basque-Spanish code-switching speech recognition."
+hugoblox:
+  ids:
+    doi: 10.21437/iberspeech.2024-64
 ---

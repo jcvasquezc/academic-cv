@@ -1,7 +1,7 @@
 ---
 title: "Multimodal assessment of Parkinson's disease: a deep learning approach"
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Tomas Arias-Vergara
 - Juan Rafael Orozco-Arroyave
 - Björn Eskofier
@@ -12,7 +12,7 @@ publishDate: '2026-08-10T10:22:36.276443Z'
 publication_types:
 - article-journal
 publication:
-  name: '*IEEE journal of biomedical and health informatics*'
+  name: 'IEEE journal of biomedical and health informatics'
 
 peer_reviewed: true
 open_access: true

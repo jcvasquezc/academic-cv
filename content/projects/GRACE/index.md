@@ -13,8 +13,8 @@ tags:
   - Automatic Speech Recognition
 
 publications:
-  - vasquez2023-novel
-  - psalitis-2023-fostering
+  - vasquez-2023-novel
+  - psaltis-2023-fostering
 ---
 
 GRACE aimed to equip European law enforcement agencies (LEAs) with advanced analytical and investigative capabilities to respond to the spread of online child sexual exploitation material (CSEM). 

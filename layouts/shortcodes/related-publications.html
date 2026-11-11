@@ -92,7 +92,7 @@
               PDF
             </a>
           {{ end }}
-          {{ with .Params.doi }}
+          {{ with or (.Param "hugoblox.ids.doi") .Params.doi }}
             <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1 rounded bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 font-medium transition">
               DOI
             </a>

@@ -13,7 +13,7 @@ publishDate: '2026-08-10T10:22:36.318647Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*International Conference on Text, Speech, and Dialogue*'
+  name: 'International Conference on Text, Speech, and Dialogue'
 peer_reviewed: true
 
 funding:

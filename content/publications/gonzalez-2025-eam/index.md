@@ -1,8 +1,8 @@
 ---
-title: 'EAM: Emotional Avatar Generation for the Metaverse.'
+title: 'EAM: Emotional Avatar Generation for the Metaverse'
 authors:
 - Ander González-Docasal
-- Juan Camilo Vásquez-Correa
+- me
 - Aitor Álvarez
 - Aritz Lasarguren
 - Jone López
@@ -12,7 +12,7 @@ publishDate: '2026-08-10T10:22:36.325329Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*SEPLN-PD*'
+  name: 'SEPLN-PD'
 
 tags:
 - Emotion Recognition

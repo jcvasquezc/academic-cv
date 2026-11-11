@@ -1,7 +1,7 @@
 ---
 title: Time Dependent ARMA for Automatic Recognition of Fear-Type Emotions in Speech
 authors:
-- JC Vásquez-Correa
+- me
 - JR Orozco-Arroyave
 - JD Arias-Londoño
 - JF Vargas-Bonilla
@@ -12,8 +12,11 @@ publishDate: '2026-08-10T10:22:36.741017Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Text, Speech, and Dialogue*'
+  name: 'Text, Speech, and Dialogue'
 
 tags:
 - Emotion Recognition
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-319-24033-6_11
 ---

@@ -3,7 +3,7 @@ title: Acoustic and linguistic analyses to assess early-onset and genetic Alzhei
   disease
 authors:
 - Paula Andrea Pérez-Toro
-- Juan Camilo Vásquez-Correa
+- me
 - Tomás Arias-Vergara
 - Philipp Klumpp
 - M Sierra-Castrillón
@@ -13,10 +13,13 @@ authors:
 - Carlos Andrés Tobón-Quintero
 - Tobias Bocklet
 - ' others'
-date: '2021-01-01'
+date: '2021-06-06'
 publishDate: '2026-08-10T10:22:36.448589Z'
 publication_types:
 - paper-conference
 publication:
-  name: "*ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
+  name: "ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+hugoblox:
+  ids:
+    doi: 10.1109/icassp39728.2021.9414009
 ---

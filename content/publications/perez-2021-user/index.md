@@ -3,7 +3,7 @@ title: 'User state modeling based on the arousal-valence plane: Applications in 
   satisfaction and health-care'
 authors:
 - Paula Andrea Pérez-Toro
-- Juan Camilo Vásquez-Correa
+- me
 - Tobias Bocklet
 - Elmar Nöth
 - Juan Rafael Orozco-Arroyave
@@ -12,7 +12,7 @@ publishDate: '2026-08-10T10:22:36.155422Z'
 publication_types:
 - article-journal
 publication:
-  name: '*IEEE Transactions on Affective Computing*'
+  name: 'IEEE Transactions on Affective Computing'
 
 tags:
 - Parkinson's Disease
@@ -20,4 +20,7 @@ tags:
 - Emotion Recognition
 - Affective Computing
 - Pathological Speech Processing
+hugoblox:
+  ids:
+    doi: 10.1109/taffc.2021.3112543
 ---

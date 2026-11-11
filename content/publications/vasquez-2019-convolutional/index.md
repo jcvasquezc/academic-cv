@@ -2,7 +2,7 @@
 title: Convolutional neural networks and a transfer learning strategy to classify
   Parkinson’s disease from speech in three different languages
 authors:
-- Juan Camilo Vásquez-Correa
+- me
 - Tomas Arias-Vergara
 - Cristian D Rios-Urrego
 - Maria Schuster
@@ -14,7 +14,7 @@ publishDate: '2026-08-10T10:22:36.569636Z'
 publication_types:
 - paper-conference
 publication:
-  name: '*Iberoamerican congress on pattern recognition*'
+  name: 'Iberoamerican congress on pattern recognition'
 
 tags:
 - Parkinson's Disease
@@ -29,4 +29,7 @@ awards:
 
 projects:
  - TAPAS
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-030-33904-3_66
 ---
