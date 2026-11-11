@@ -1,19 +1,28 @@
 ---
 title: Publications
-cms_exclude: true
-type: publication    # <--- Forces Hugo to use the publication filter template
+type: landing
 
-# View format: citation (academic APA style), compact, or card
-view: citation
-
-# Optional introductory text (renders above the filter bar)
-summary: "Peer-reviewed articles, conference proceedings, and preprints in speech recognition, multimodal AI, and digital health."
-
-# Sort order: default is date descending (-date)
-# Publications automatically support built-in search and filtering by:
-# - Publication type (Conference paper, Journal, etc.)
-# - Year
-# - Search term
+# Page sections
+sections:
+  - block: portfolio
+    id: publications
+    content:
+      title: Publications
+      text: "Explore my recent conference proceedings, journal papers, and technical contributions below. You can filter by publication type or search by keyword or topic."
+      filters:
+        folders:
+          - publications
+        default_button_index: 0
+        buttons:
+          - name: All
+            tag: '*'
+          - name: Conference Papers
+            tag: 'paper-conference'
+          - name: Journal Articles
+            tag: 'article-journal'
+          - name: Preprints
+            tag: 'preprint'
+    design:
+      view: citation
+      columns: '1'
 ---
-
-Explore my recent conference proceedings, journal papers, and technical contributions below. You can filter by publication type or search by keyword or topic.
