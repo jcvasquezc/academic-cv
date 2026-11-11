@@ -10,6 +10,8 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
+      # Title shown before your name in the heading only (publications use the plain name)
+      name_prefix: Dr.
       text: ''
       # Show a call-to-action button under your biography? (optional)
       button:
