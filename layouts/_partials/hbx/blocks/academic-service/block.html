@@ -1,0 +1,100 @@
+{{/* Academic Service block (local, not part of HugoBlox).
+     Renders grouped service entries (editorial roles, reviewing, committees...)
+     from a data file, `data/service.yaml` by default.
+
+     Used at the bottom of layouts/publications/list.html. Can also be used
+     as a block in any landing page:
+       - block: academic-service
+         id: service
+         content:
+           title: Academic Service
+           text: ''           # optional intro (Markdown)
+           data: service      # optional, name of the file in data/
+*/}}
+
+{{ $block := .wcBlock }}
+{{ $content := $block.content }}
+{{ if not (reflect.IsMap $content) }}{{ $content = dict }}{{ end }}
+
+{{ $dataKey := index $content "data" | default "service" }}
+{{ $groups := index site.Data $dataKey "groups" }}
+{{ $today := now.Format "2006-01-02" }}
+
+<div class="flex flex-col items-center px-4">
+  <div class="container max-w-3xl w-full">
+    {{ with index $content "title" | default "Academic Service" }}
+      <h2 class="mb-6 text-center text-3xl font-bold text-gray-900 dark:text-white">{{ . }}</h2>
+    {{ end }}
+    {{ with index $content "text" }}
+      <div class="prose prose-slate dark:prose-invert mx-auto mb-8">{{ . | markdownify }}</div>
+    {{ end }}
+
+    {{ range $groups }}
+      {{ if .items }}
+      <section class="mb-10">
+        <h3 class="mb-4 border-b border-gray-200 pb-1 text-xl font-bold text-gray-900 dark:border-gray-700 dark:text-white">{{ .title }}</h3>
+        {{ with .note }}
+          <p class="-mt-2 mb-4 text-sm text-gray-600 dark:text-gray-400 [&_a]:text-primary-700 [&_a]:underline dark:[&_a]:text-primary-400">{{ . | markdownify }}</p>
+        {{ end }}
+
+        {{ if .compact }}
+          {{/* ---------- Compact one-line list ---------- */}}
+          <ul class="text-sm text-gray-700 dark:text-gray-300 {{ if eq (int (.columns | default 1)) 2 }}sm:columns-2 sm:gap-8{{ end }}">
+            {{ range .items }}
+              {{ $name := .title | default .venue }}
+              <li class="mb-2 flex break-inside-avoid flex-wrap gap-x-2">
+                {{ with .role }}<span class="font-semibold text-gray-900 dark:text-white">{{ . }}</span><span aria-hidden="true">·</span>{{ end }}
+                <span>
+                  {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener" class="text-primary-700 hover:underline dark:text-primary-400">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}{{ if and .title .venue }}, <em>{{ .venue }}</em>{{ end }}{{ with .publisher }} ({{ . }}){{ end }}
+                </span>
+                {{ with .period }}<span class="text-gray-500 dark:text-gray-400">{{ . }}</span>{{ end }}
+              </li>
+            {{ end }}
+          </ul>
+
+        {{ else }}
+          {{/* ---------- Detailed cards ---------- */}}
+          <div class="flex flex-col space-y-4">
+            {{ range .items }}
+              {{ $status := .status }}
+              {{ if and (not $status) .deadline }}
+                {{ $status = cond (lt $today (time.Format "2006-01-02" .deadline)) "Open" "Closed" }}
+              {{ end }}
+              {{ $name := .title | default .venue }}
+              <article class="rounded-xl border border-gray-200 bg-gray-50 p-4 dark:border-gray-700 dark:bg-gray-800/50">
+                <div class="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-wide">
+                  {{ with .role }}<span class="rounded bg-primary-100 px-2 py-0.5 text-primary-700 dark:bg-primary-900/40 dark:text-primary-300">{{ . }}</span>{{ end }}
+                  {{ with .kind }}<span class="text-gray-600 dark:text-gray-300">{{ . }}</span>{{ end }}
+                  {{ with $status }}
+                    <span class="rounded px-2 py-0.5 {{ if eq . "Open" }}bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300{{ else }}bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200{{ end }}">{{ . }}</span>
+                  {{ end }}
+                  {{ with .period }}<span class="ml-auto font-normal normal-case tracking-normal text-gray-500 dark:text-gray-400">{{ . }}</span>{{ end }}
+                </div>
+                <h4 class="mt-2 text-lg font-semibold text-gray-900 dark:text-white">
+                  {{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener" class="hover:text-primary-600 dark:hover:text-primary-400">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}
+                </h4>
+                {{ if or (and .title .venue) .publisher .section .deadline }}
+                  <p class="mt-1 text-sm text-gray-700 dark:text-gray-300">
+                    {{ if .title }}<em>{{ .venue }}</em>{{ end }}{{ with .publisher }} ({{ . }}){{ end }}{{ with .section }} · Section: {{ . }}{{ end }}{{ with .deadline }} · Submission deadline: {{ time.Format "2 January 2006" . }}{{ end }}
+                  </p>
+                {{ end }}
+                {{ with .co_editors }}
+                  <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">With {{ delimit . ", " ", and " }}</p>
+                {{ end }}
+                {{ with .summary }}
+                  <p class="mt-2 text-sm text-gray-700 dark:text-gray-300">{{ . | markdownify }}</p>
+                {{ end }}
+                {{ with .keywords }}
+                  <div class="mt-2 flex flex-wrap gap-1">
+                    {{ range . }}<span class="rounded-full border border-gray-300 px-2 py-0.5 text-xs text-gray-600 dark:border-gray-600 dark:text-gray-300">{{ . }}</span>{{ end }}
+                  </div>
+                {{ end }}
+              </article>
+            {{ end }}
+          </div>
+        {{ end }}
+      </section>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

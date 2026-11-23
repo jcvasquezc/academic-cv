@@ -186,6 +186,13 @@
   </div>
 </div>
 
+{{/* ---------- Academic service: editorial roles, reviewing (data/service.yaml) ---------- */}}
+{{ if site.Data.service.groups }}
+  <div id="academic-service" class="mt-16 scroll-mt-24 border-t border-gray-200 pt-12 dark:border-gray-700">
+    {{ partial "hbx/blocks/academic-service/block.html" (dict "wcPage" . "wcBlock" (dict "content" (dict "title" "Editorial & Reviewing Service"))) }}
+  </div>
+{{ end }}
+
 <script>
 (function () {
   var form = document.getElementById('pub-filters');

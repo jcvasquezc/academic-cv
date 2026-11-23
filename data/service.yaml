@@ -1,0 +1,165 @@
+# Academic service (editorial roles, reviewing, committees...), shown at the
+# bottom of the Publications page (layouts/publications/list.html) by the
+# `academic-service` block in layouts/_partials/hbx/blocks/academic-service/.
+#
+# Service is organised in groups, shown in the order listed here.
+# Each group has:
+#   title:   heading shown on the page (e.g. Editorial Roles, Reviewing)
+#   compact: true  -> one-line list (good for long reviewer / committee lists)
+#            false -> detailed cards (default)
+#   columns: 2     -> split a compact list into two columns on wide screens
+#   note:    optional line under the heading (Markdown)
+#   items:   list of entries
+#
+# Every entry field is optional; empty ones are skipped.
+#   role:       your role (Guest Editor, Reviewer, TPC Member, Session Chair, ...)
+#   kind:       type of activity (Special Issue, Journal, Conference, Workshop, ...)
+#   title:      name of the special issue / session / workshop
+#   venue:      journal or conference (e.g. Sensors, Interspeech 2025)
+#   publisher:  e.g. MDPI, IEEE, Elsevier, ISCA
+#   section:    journal section (optional)
+#   url:        link (title, or venue when there is no title, becomes clickable)
+#   period:     free text, e.g. "2023", "2021–present"
+#   deadline:   submission deadline (YYYY-MM-DD), shows an Open/Closed badge
+#   status:     Open / Closed, overrides the badge computed from the deadline
+#   co_editors: list of co-editors / co-organisers
+#   keywords:   list of keywords
+#   summary:    one or two sentences
+
+groups:
+  - title: Editorial Roles
+    items:
+      - role: Guest Editor
+        kind: Special Issue
+        title: Sensors in Multimedia Forensics
+        venue: Sensors
+        publisher: MDPI
+        section: Intelligent Sensors
+        url: https://www.mdpi.com/journal/sensors/special_issues/W35V7UX396
+        period: ""
+        deadline: ""
+        keywords:
+          - Multimedia forensics
+          - Digital forensics
+          - Deepfake detection
+          - Tampering detection
+          - Audio processing
+          - Image and video analysis
+          - Biometric identification
+        summary: "Explores how sensor technologies advance multimedia forensics: sensor-based approaches for the analysis, processing and authentication of images, video and audio, including tampering and deepfake detection."
+
+  - title: Reviewing — Conferences
+    compact: true
+    items:
+      - role: Reviewer
+        venue: Interspeech
+        publisher: ISCA
+        period: "2023–2026"
+
+  - title: Reviewing — Journals
+    compact: true
+    columns: 2
+    note: "Verified reviews recorded on [ORCID](https://orcid.org/0000-0003-4946-9232) (imported November 2026)."
+    items:
+      - venue: "ACM Computing Surveys"
+        publisher: "ACM"
+        period: "2022"
+      - venue: "Algorithms"
+        publisher: "MDPI"
+        period: "2023"
+      - venue: "Applied Sciences"
+        publisher: "MDPI"
+        period: "2022"
+      - venue: "Applied Soft Computing"
+        publisher: "Elsevier"
+        period: "2021"
+      - venue: "Artificial Intelligence in Medicine"
+        publisher: "Elsevier"
+        period: "2018–2019, 2021"
+      - venue: "Artificial Intelligence Review"
+        publisher: "Springer"
+        period: "2022"
+      - venue: "Biomedical Engineering / Biomedizinische Technik"
+        publisher: "De Gruyter"
+        period: "2020"
+      - venue: "Biomedical Signal Processing and Control"
+        publisher: "Elsevier"
+        period: "2020–2023"
+      - venue: "Computer Methods and Programs in Biomedicine Update"
+        publisher: "Elsevier"
+        period: "2023"
+      - venue: "Data"
+        publisher: "MDPI"
+        period: "2021"
+      - venue: "Diagnostics"
+        publisher: "MDPI"
+        period: "2023"
+      - venue: "Digital Signal Processing"
+        publisher: "Elsevier"
+        period: "2021–2022"
+      - venue: "Electronics"
+        publisher: "MDPI"
+        period: "2020, 2025"
+      - venue: "Frontiers in Human Neuroscience"
+        publisher: "Frontiers"
+        period: "2020"
+      - venue: "IEEE Access"
+        publisher: "IEEE"
+        period: "2020–2022"
+      - venue: "IEEE Journal of Biomedical and Health Informatics"
+        publisher: "IEEE"
+        period: "2019–2020, 2022"
+      - venue: "IEEE Signal Processing Letters"
+        publisher: "IEEE"
+        period: "2026"
+      - venue: "IEEE Transactions on Affective Computing"
+        publisher: "IEEE"
+        period: "2025"
+      - venue: "IEEE Transactions on Neural Networks and Learning Systems"
+        publisher: "IEEE"
+        period: "2020"
+      - venue: "IEEE/ACM Transactions on Audio, Speech, and Language Processing"
+        publisher: "IEEE"
+        period: "2019, 2021"
+      - venue: "Journal of Internet Technology"
+        publisher: "Taiwan Academic Network"
+        period: "2021"
+      - venue: "Language Resources and Evaluation"
+        publisher: "Springer"
+        period: "2022"
+      - venue: "Neurocomputing"
+        publisher: "Elsevier"
+        period: "2019–2020"
+      - venue: "Parkinsonism & Related Disorders"
+        publisher: "Elsevier"
+        period: "2018"
+      - venue: "Pattern Analysis and Applications"
+        publisher: "Springer"
+        period: "2020–2021"
+      - venue: "Pattern Recognition"
+        publisher: "Elsevier"
+        period: "2020"
+      - venue: "PLOS One"
+        publisher: "PLOS"
+        period: "2018"
+      - venue: "Sensors"
+        publisher: "MDPI"
+        period: "2019–2021"
+      - venue: "Sensors and Actuators A: Physical"
+        publisher: "Elsevier"
+        period: "2022"
+      - venue: "SN Applied Sciences"
+        publisher: "Springer"
+        period: "2020–2021"
+      - venue: "The Journal of the Acoustical Society of America"
+        publisher: "ASA"
+        period: "2019"
+
+  # --- More kinds of service: add groups like this ----------------------------
+  #
+  # - title: Program Committees & Organisation
+  #   compact: true
+  #   items:
+  #     - role: Technical Program Committee
+  #       venue: Conference name
+  #       period: "2026"
